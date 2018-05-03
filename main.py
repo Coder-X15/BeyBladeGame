@@ -16,10 +16,14 @@ class Beyblade(object):
     def __init__(self, image, rotation_speed):
         self._image_surf = pygame.image.load(os.path.join(graphics_path, image)).convert_alpha()
         self._image_surf = pygame.transform.scale(self._image_surf, (100, 100))
-        self._image_surf_rect = self._image_surf.get_rect(center=(100, 100))
+        self._image_surf_rect = self._image_surf.get_rect(center=(WIDTH/2, HEIGHT/2))
         self._image_surf_orig = self._image_surf
-        self._posx, self._posy = 60, 60
-        self._speed = (0, 0)
+        self._posx, self._posy = 0, 0  # position of objects top left
+        # self._speed = (0, 0)
+        self._center_of_rotation_x = WIDTH / 2
+        self._center_of_rotation_y = HEIGHT / 2
+        self._radius = 50
+        self._angle_degree = 0
         self._rotation_speed = rotation_speed
         self._image_surf_angle = 0
         return
@@ -34,23 +38,26 @@ class Beyblade(object):
         self._image_surf_rect = self._image_surf.get_rect(center=self._image_surf_rect.center)
 
     def move_in_circle(self):
-        center_of_rotation_x = WIDTH / 2
-        center_of_rotation_y = HEIGHT / 2
-        radius = 50
-        angle = math.radians(45)
-        omega = 0.1  # angular velocity
-        self._posx += radius*omega*math.cos(angle + math.pi/2)
-        self._posy -= radius*omega*math.sin(angle + math.pi/2)
 
-        print("pos: {},{}".format(self._posx, self._posy))
+        angle_radians = math.radians(self._angle_degree)
+        # omega = 0.1  # angular velocity
+        # self._posx = radius*omega*math.cos(angle + math.pi/2)
+        # self._posy = radius*omega*math.sin(angle + math.pi/2)
+
+        self._image_surf_rect.centerx = self._center_of_rotation_x + (self._radius * math.cos(angle_radians))
+        self._image_surf_rect.centery = self._center_of_rotation_y + (self._radius * math.sin(angle_radians))
+        self._angle_degree += 5
+        self._angle_degree = self._angle_degree % 360
+
 
     def update(self):
         self.rotate()
         self.move_in_circle()
+        print("Center pos: {},{}".format(self._image_surf_rect.centerx, self._image_surf_rect.centery))
         return
 
     def render(self, display_surf):
-        display_surf.blit(self._image_surf, (self._posx, self._posy))
+        display_surf.blit(self._image_surf, (self._image_surf_rect.left, self._image_surf_rect.top))
         return
 
 
