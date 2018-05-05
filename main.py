@@ -1,35 +1,34 @@
 import pygame
 from globals import *
-from screen import Screen
-from main_menu_screen import MainMenuScreen
 from my_logger import get_logger
+from main_menu_screen import MainMenuScreen
 
-
-class App(Screen):
+class App:
 
     def __init__(self):
-        super().__init__(logger=logger)
         # TODO: app shouldn't be a screen, it should call pygame.init() and pygame.quit() and remove it from screen, screen should inherit the surface
-        self._main_menu = MainMenuScreen(logger=logger)
-        self._main_menu.on_execute()
+        self.logger = logger
+        logger.info("__init__")
+        pygame.init()
+        self._display_surf = pygame.display.set_mode((WIDTH, HEIGHT), pygame.HWSURFACE | pygame.DOUBLEBUF)
+        self._active_screen = MainMenuScreen(display_surf=self._display_surf, logger=logger)
+        self._running = True
 
-    def on_init(self):
-        super().on_init()
-        return True
+    def on_cleanup(self):
+        self.logger.info("on_cleanup")
+        pygame.quit()
 
-    def on_loop(self):
-        pass
+    def on_execute(self):
+        self.logger.info("on_execute")
 
-    def on_render(self):
-        self._display_surf.fill(black)  # clear screen
-        pygame.display.update()
-        # pygame.display.flip()
-        # milliseconds = self.clock.tick(FPS)
-        # self._playtime += milliseconds / 1000.0
-        # text = "FPS: {0:.2f}   Playtime: {1:.2f}".format(self.clock.get_fps(), self._playtime)
-        text = "FPS: {0:.2f}".format(self.clock.get_fps())
-        pygame.display.set_caption(text)
-        pass
+        while self._running:
+            next_active_screen = self._active_screen.on_execute()
+            if next_active_screen is not None:
+                self._active_screen = next_active_screen(self._display_surf, self.logger)
+            else:
+                self._running = False
+
+        self.on_cleanup()
 
 
 if __name__ == "__main__":

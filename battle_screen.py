@@ -1,19 +1,18 @@
-import pygame
 from screen import Screen
 from globals import *
 from beyblade import Beyblade
 
 
 class BattleScreen(Screen):
-    def __init__(self, logger):
-        super().__init__(logger=logger.getChild(__name__))
+    def __init__(self, display_surf, logger):
+        super().__init__(display_surf=display_surf, logger=logger.getChild(__name__))
         self.beyblades_list = []
+        self.beyblades_list.append(Beyblade(logger=self.logger,
+                                            image='golden.png',
+                                            rotation_speed=MEDIUM_SPEED,
+                                            movement_speed=MEDIUM_SPEED))
 
-    def on_init(self):
-        super().on_init()
-        self.beyblades_list.append(Beyblade('golden.png', MEDIUM_SPEED, MEDIUM_SPEED))
-
-    def on_loop(self):
+    def on_update(self):
         for beyblade in self.beyblades_list:
             beyblade.update()
         pass
@@ -22,10 +21,9 @@ class BattleScreen(Screen):
         self._display_surf.fill(black)  # clear screen
         for beyblade in self.beyblades_list:
             beyblade.render(self._display_surf)
-        pygame.display.update()
-        # pygame.display.flip()
-        milliseconds = self.clock.tick(FPS)
-        self._playtime += milliseconds / 1000.0
-        text = "FPS: {0:.2f}   Playtime: {1:.2f}".format(self.clock.get_fps(), self._playtime)
-        pygame.display.set_caption(text)
-        pass
+        super().on_render()
+
+    def on_exit(self):
+        self._running = False
+        # from main_menu_screen import MainMenuScreen
+        # self._next_screen = MainMenuScreen

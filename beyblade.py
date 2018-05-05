@@ -5,7 +5,9 @@ import os
 
 
 class Beyblade(object):
-    def __init__(self, image, rotation_speed, movement_speed):
+    def __init__(self, logger, image, rotation_speed, movement_speed):
+        assert(logger is not None), "Beyblade object got not logger!"
+        self.logger = logger.getChild(__name__)
         self._image_surf = pygame.image.load(os.path.join(graphics_path, image)).convert_alpha()
         self._image_surf = pygame.transform.scale(self._image_surf, (100, 100))
         self._image_surf_rect = self._image_surf.get_rect(center=(WIDTH / 2, HEIGHT / 2))
