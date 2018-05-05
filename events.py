@@ -82,7 +82,6 @@ class CEvent:
         pass
 
     def on_event(self, event):
-        print("on_event")
         if event.type == pygame.QUIT:
             self.on_exit()
 

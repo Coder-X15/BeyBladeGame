@@ -5,9 +5,11 @@ from events import CEvent
 
 class Screen(CEvent):
 
-    def __init__(self):
+    def __init__(self, logger=None):
+        assert(logger is None, 'logger == None!')
+        self.logger = logger.getChild(__name__)
         super().__init__()
-        print("__init__")
+        self.logger.info("__init__")
         self.clock = pygame.time.Clock()
         self._running = True
         self._display_surf = None
@@ -15,19 +17,17 @@ class Screen(CEvent):
         return
 
     def on_init(self):
-        print("on_init")
+        self.logger.info("on_init")
         pygame.init()
-        pygame.display.set_caption("MyGame")
+        # pygame.display.set_caption("MyGame")
         self._display_surf = pygame.display.set_mode(self.size, pygame.HWSURFACE | pygame.DOUBLEBUF)
         self._running = True
         return True
 
     def on_loop(self):
-        print("on_loop")
         pass
 
     def on_render(self):
-        print("on_render")
         self._display_surf.fill(black)  # clear screen
         pygame.display.update()
         # pygame.display.flip()
@@ -38,11 +38,12 @@ class Screen(CEvent):
         self._running = False
 
     def on_cleanup(self):
-        print("on_cleanup")
+        self.logger.info("on_cleanup")
         pygame.quit()
+        exit()
 
     def on_execute(self):
-        print("on_execute")
+        self.logger.info("on_execute")
         if not self.on_init():
             self._running = False
 

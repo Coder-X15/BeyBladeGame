@@ -26,11 +26,11 @@ class Beyblade(object):
         def do_rotate():
             if (self._rotation_counter % self._rotation_speed) == 0:
                 self._rotation_counter = 1
-                print ("rotate")
+                self.logger.info ("rotate")
                 return True
             else:
                 self._rotation_counter += 1
-                print ("dont rotate")
+                self.logger.info ("dont rotate")
                 return False
 
         """Rotate the image of the sprite around its center."""
@@ -73,7 +73,7 @@ class Beyblade(object):
     def update(self):
         self.rotate()
         self.move_in_circle()
-        print("Center pos: {},{}".format(self._image_surf_rect.centerx, self._image_surf_rect.centery))
+        self.logger.info("Center pos: {},{}".format(self._image_surf_rect.centerx, self._image_surf_rect.centery))
         return
 
     def render(self, display_surf):
