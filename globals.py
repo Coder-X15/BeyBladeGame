@@ -3,10 +3,13 @@
 
 graphics_path = "sources\graphics"
 
-black = 0, 0, 0
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 128)
 
-WIDTH = 640
-HEIGHT = 480
+WIDTH = 1080
+HEIGHT = 720
 FPS = 60
 LOW_SPEED = 3
 MEDIUM_SPEED = 2

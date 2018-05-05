@@ -18,7 +18,7 @@ class BattleScreen(Screen):
         pass
 
     def on_render(self):
-        self._display_surf.fill(black)  # clear screen
+        self._display_surf.fill(BLACK)  # clear screen
         for beyblade in self.beyblades_list:
             beyblade.render(self._display_surf)
         super().on_render()

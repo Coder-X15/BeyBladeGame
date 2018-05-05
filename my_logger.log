@@ -1,203 +1,533 @@
-2018-05-05 16:41:19,256 - my_logger - INFO - __init__
-2018-05-05 16:41:19,976 - my_logger.main_menu_screen.screen - INFO - __init__
-2018-05-05 16:41:19,990 - my_logger - INFO - on_execute
-2018-05-05 16:41:19,990 - my_logger.main_menu_screen.screen - INFO - on_execute
-2018-05-05 16:41:22,386 - my_logger.battle_screen.screen - INFO - __init__
-2018-05-05 16:41:22,666 - my_logger.battle_screen.screen - INFO - on_execute
-2018-05-05 16:41:22,667 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:22,667 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 320,240
-2018-05-05 16:41:22,668 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:22,669 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 370,240
-2018-05-05 16:41:22,685 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:22,685 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 370,240
-2018-05-05 16:41:22,701 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:22,701 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 369,244
-2018-05-05 16:41:22,717 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:22,717 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 369,244
-2018-05-05 16:41:22,733 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:22,734 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 369,248
-2018-05-05 16:41:22,749 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:22,750 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 369,248
-2018-05-05 16:41:22,766 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:22,767 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 368,252
-2018-05-05 16:41:22,783 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:22,783 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 368,252
-2018-05-05 16:41:22,799 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:22,800 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 366,257
-2018-05-05 16:41:22,815 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:22,816 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 366,257
-2018-05-05 16:41:22,831 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:22,832 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 365,261
-2018-05-05 16:41:22,848 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:22,848 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 365,261
-2018-05-05 16:41:22,865 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:22,866 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 363,265
-2018-05-05 16:41:22,881 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:22,882 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 363,265
-2018-05-05 16:41:22,897 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:22,898 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 360,268
-2018-05-05 16:41:22,914 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:22,914 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 360,268
-2018-05-05 16:41:22,931 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:22,932 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 358,272
-2018-05-05 16:41:22,947 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:22,947 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 358,272
-2018-05-05 16:41:22,963 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:22,964 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 355,275
-2018-05-05 16:41:22,979 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:22,979 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 355,275
-2018-05-05 16:41:22,996 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:22,997 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 352,278
-2018-05-05 16:41:23,013 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,013 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 352,278
-2018-05-05 16:41:23,028 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,029 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 348,280
-2018-05-05 16:41:23,045 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,045 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 348,280
-2018-05-05 16:41:23,062 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,063 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 345,283
-2018-05-05 16:41:23,079 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,079 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 345,283
-2018-05-05 16:41:23,095 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,095 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 341,285
-2018-05-05 16:41:23,111 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,111 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 341,285
-2018-05-05 16:41:23,128 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,129 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 337,286
-2018-05-05 16:41:23,145 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,145 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 337,286
-2018-05-05 16:41:23,161 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,161 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 332,288
-2018-05-05 16:41:23,177 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,177 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 332,288
-2018-05-05 16:41:23,193 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,193 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 328,289
-2018-05-05 16:41:23,209 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,209 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 328,289
-2018-05-05 16:41:23,226 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,227 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 324,289
-2018-05-05 16:41:23,242 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,242 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 324,289
-2018-05-05 16:41:23,258 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,259 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 320,290
-2018-05-05 16:41:23,275 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,275 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 320,290
-2018-05-05 16:41:23,292 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,292 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 315,289
-2018-05-05 16:41:23,308 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,308 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 315,289
-2018-05-05 16:41:23,324 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,325 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 311,289
-2018-05-05 16:41:23,341 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,341 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 311,289
-2018-05-05 16:41:23,358 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,358 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 307,288
-2018-05-05 16:41:23,374 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,374 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 307,288
-2018-05-05 16:41:23,391 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,392 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 302,286
-2018-05-05 16:41:23,407 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,408 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 302,286
-2018-05-05 16:41:23,423 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,424 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 298,285
-2018-05-05 16:41:23,440 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,440 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 298,285
-2018-05-05 16:41:23,457 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,458 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 295,283
-2018-05-05 16:41:23,473 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,473 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 295,283
-2018-05-05 16:41:23,489 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,490 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 291,280
-2018-05-05 16:41:23,506 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,506 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 291,280
-2018-05-05 16:41:23,523 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,523 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 287,278
-2018-05-05 16:41:23,539 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,539 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 287,278
-2018-05-05 16:41:23,555 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,556 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 284,275
-2018-05-05 16:41:23,572 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,572 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 284,275
-2018-05-05 16:41:23,589 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,590 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 281,272
-2018-05-05 16:41:23,605 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,606 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 281,272
-2018-05-05 16:41:23,621 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,622 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 279,268
-2018-05-05 16:41:23,638 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,639 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 279,268
-2018-05-05 16:41:23,655 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,656 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 276,265
-2018-05-05 16:41:23,671 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,672 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 276,265
-2018-05-05 16:41:23,687 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,688 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 274,261
-2018-05-05 16:41:23,704 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,704 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 274,261
-2018-05-05 16:41:23,721 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,722 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 273,257
-2018-05-05 16:41:23,738 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,738 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 273,257
-2018-05-05 16:41:23,754 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,755 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 271,252
-2018-05-05 16:41:23,771 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,771 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 271,252
-2018-05-05 16:41:23,786 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,787 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 270,248
-2018-05-05 16:41:23,803 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,804 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 270,248
-2018-05-05 16:41:23,819 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,820 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 270,244
-2018-05-05 16:41:23,836 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,836 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 270,244
-2018-05-05 16:41:23,853 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,854 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 270,240
-2018-05-05 16:41:23,869 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,870 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 270,240
-2018-05-05 16:41:23,885 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,886 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 270,235
-2018-05-05 16:41:23,902 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,902 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 270,235
-2018-05-05 16:41:23,919 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,920 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 270,231
-2018-05-05 16:41:23,936 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,936 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 270,231
-2018-05-05 16:41:23,953 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,953 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 271,227
-2018-05-05 16:41:23,969 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:23,970 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 271,227
-2018-05-05 16:41:23,985 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:23,986 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 273,222
-2018-05-05 16:41:24,002 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:24,002 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 273,222
-2018-05-05 16:41:24,019 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:24,020 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 274,218
-2018-05-05 16:41:24,036 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:24,036 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 274,218
-2018-05-05 16:41:24,052 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:24,053 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 276,215
-2018-05-05 16:41:24,068 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:24,069 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 276,215
-2018-05-05 16:41:24,084 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:24,085 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 279,211
-2018-05-05 16:41:24,102 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:24,102 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 279,211
-2018-05-05 16:41:24,118 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:24,119 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 281,207
-2018-05-05 16:41:24,134 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:24,135 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 281,207
-2018-05-05 16:41:24,151 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:24,152 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 284,204
-2018-05-05 16:41:24,168 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:24,168 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 284,204
-2018-05-05 16:41:24,184 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:24,184 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 287,201
-2018-05-05 16:41:24,201 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:24,201 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 287,201
-2018-05-05 16:41:24,217 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:24,217 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 291,199
-2018-05-05 16:41:24,233 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
-2018-05-05 16:41:24,233 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 291,199
-2018-05-05 16:41:24,320 - my_logger.battle_screen.screen.beyblade - INFO - rotate
-2018-05-05 16:41:24,320 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 295,196
-2018-05-05 16:41:24,321 - my_logger - INFO - on_cleanup
+2018-05-05 23:33:01,473 - my_logger - INFO - __init__
+2018-05-05 23:33:02,136 - my_logger.main_menu_screen.screen - INFO - __init__
+2018-05-05 23:33:02,153 - my_logger - INFO - on_execute
+2018-05-05 23:33:02,153 - my_logger.main_menu_screen.screen - INFO - on_execute
+2018-05-05 23:33:13,656 - my_logger.battle_screen.screen - INFO - __init__
+2018-05-05 23:33:13,937 - my_logger.battle_screen.screen - INFO - on_execute
+2018-05-05 23:33:13,938 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:13,938 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 540,360
+2018-05-05 23:33:13,941 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:13,941 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 590,360
+2018-05-05 23:33:13,957 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:13,957 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 590,360
+2018-05-05 23:33:13,973 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:13,973 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 589,364
+2018-05-05 23:33:13,989 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:13,989 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 589,364
+2018-05-05 23:33:14,006 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,006 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 589,368
+2018-05-05 23:33:14,023 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,023 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 589,368
+2018-05-05 23:33:14,039 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,039 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 588,372
+2018-05-05 23:33:14,056 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,056 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 588,372
+2018-05-05 23:33:14,072 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,072 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 586,377
+2018-05-05 23:33:14,089 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,089 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 586,377
+2018-05-05 23:33:14,106 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,107 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 585,381
+2018-05-05 23:33:14,123 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,123 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 585,381
+2018-05-05 23:33:14,140 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,140 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 583,385
+2018-05-05 23:33:14,156 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,156 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 583,385
+2018-05-05 23:33:14,171 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,172 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 580,388
+2018-05-05 23:33:14,188 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,188 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 580,388
+2018-05-05 23:33:14,204 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,204 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 578,392
+2018-05-05 23:33:14,220 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,220 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 578,392
+2018-05-05 23:33:14,235 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,236 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 575,395
+2018-05-05 23:33:14,252 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,253 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 575,395
+2018-05-05 23:33:14,268 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,269 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 572,398
+2018-05-05 23:33:14,285 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,285 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 572,398
+2018-05-05 23:33:14,302 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,302 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 568,400
+2018-05-05 23:33:14,318 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,318 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 568,400
+2018-05-05 23:33:14,334 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,334 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 565,403
+2018-05-05 23:33:14,351 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,351 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 565,403
+2018-05-05 23:33:14,368 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,368 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 561,405
+2018-05-05 23:33:14,384 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,384 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 561,405
+2018-05-05 23:33:14,400 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,400 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 557,406
+2018-05-05 23:33:14,416 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,416 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 557,406
+2018-05-05 23:33:14,432 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,432 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 552,408
+2018-05-05 23:33:14,448 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,448 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 552,408
+2018-05-05 23:33:14,464 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,464 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 548,409
+2018-05-05 23:33:14,480 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,480 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 548,409
+2018-05-05 23:33:14,497 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,498 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 544,409
+2018-05-05 23:33:14,514 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,514 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 544,409
+2018-05-05 23:33:14,531 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,531 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 540,410
+2018-05-05 23:33:14,548 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,548 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 540,410
+2018-05-05 23:33:14,565 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,565 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 535,409
+2018-05-05 23:33:14,580 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,580 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 535,409
+2018-05-05 23:33:14,597 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,598 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 531,409
+2018-05-05 23:33:14,614 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,615 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 531,409
+2018-05-05 23:33:14,630 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,631 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 527,408
+2018-05-05 23:33:14,646 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,647 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 527,408
+2018-05-05 23:33:14,663 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,663 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 522,406
+2018-05-05 23:33:14,679 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,679 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 522,406
+2018-05-05 23:33:14,695 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,696 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 518,405
+2018-05-05 23:33:14,712 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,712 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 518,405
+2018-05-05 23:33:14,729 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,730 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 515,403
+2018-05-05 23:33:14,745 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,745 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 515,403
+2018-05-05 23:33:14,761 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,762 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 511,400
+2018-05-05 23:33:14,778 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,778 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 511,400
+2018-05-05 23:33:14,795 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,795 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 507,398
+2018-05-05 23:33:14,811 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,811 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 507,398
+2018-05-05 23:33:14,827 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,827 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 504,395
+2018-05-05 23:33:14,843 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,843 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 504,395
+2018-05-05 23:33:14,859 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,860 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 501,392
+2018-05-05 23:33:14,876 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,876 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 501,392
+2018-05-05 23:33:14,893 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,893 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 499,388
+2018-05-05 23:33:14,909 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,909 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 499,388
+2018-05-05 23:33:14,926 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,927 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 496,385
+2018-05-05 23:33:14,943 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,943 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 496,385
+2018-05-05 23:33:14,960 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,961 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 494,381
+2018-05-05 23:33:14,977 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:14,977 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 494,381
+2018-05-05 23:33:14,994 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:14,995 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 493,377
+2018-05-05 23:33:15,011 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,011 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 493,377
+2018-05-05 23:33:15,028 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,029 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 491,372
+2018-05-05 23:33:15,045 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,045 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 491,372
+2018-05-05 23:33:15,062 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,062 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,368
+2018-05-05 23:33:15,078 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,078 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,368
+2018-05-05 23:33:15,095 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,096 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,364
+2018-05-05 23:33:15,112 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,112 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,364
+2018-05-05 23:33:15,128 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,129 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,360
+2018-05-05 23:33:15,145 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,145 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,360
+2018-05-05 23:33:15,162 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,162 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,355
+2018-05-05 23:33:15,178 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,178 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,355
+2018-05-05 23:33:15,195 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,195 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,351
+2018-05-05 23:33:15,211 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,211 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,351
+2018-05-05 23:33:15,227 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,228 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 491,347
+2018-05-05 23:33:15,244 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,245 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 491,347
+2018-05-05 23:33:15,261 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,262 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 493,342
+2018-05-05 23:33:15,278 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,278 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 493,342
+2018-05-05 23:33:15,295 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,296 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 494,338
+2018-05-05 23:33:15,312 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,312 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 494,338
+2018-05-05 23:33:15,328 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,329 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 496,335
+2018-05-05 23:33:15,345 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,345 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 496,335
+2018-05-05 23:33:15,361 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,362 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 499,331
+2018-05-05 23:33:15,378 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,378 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 499,331
+2018-05-05 23:33:15,394 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,395 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 501,327
+2018-05-05 23:33:15,411 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,411 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 501,327
+2018-05-05 23:33:15,427 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,428 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 504,324
+2018-05-05 23:33:15,444 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,444 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 504,324
+2018-05-05 23:33:15,461 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,462 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 507,321
+2018-05-05 23:33:15,478 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,478 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 507,321
+2018-05-05 23:33:15,495 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,495 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 511,319
+2018-05-05 23:33:15,512 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,512 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 511,319
+2018-05-05 23:33:15,529 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,529 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 515,316
+2018-05-05 23:33:15,545 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,545 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 515,316
+2018-05-05 23:33:15,562 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,562 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 518,314
+2018-05-05 23:33:15,578 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,578 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 518,314
+2018-05-05 23:33:15,593 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,594 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 522,313
+2018-05-05 23:33:15,609 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,609 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 522,313
+2018-05-05 23:33:15,625 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,626 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 527,311
+2018-05-05 23:33:15,642 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,642 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 527,311
+2018-05-05 23:33:15,658 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,659 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 531,310
+2018-05-05 23:33:15,675 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,675 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 531,310
+2018-05-05 23:33:15,692 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,693 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 535,310
+2018-05-05 23:33:15,709 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,709 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 535,310
+2018-05-05 23:33:15,726 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,726 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 540,310
+2018-05-05 23:33:15,743 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,743 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 540,310
+2018-05-05 23:33:15,760 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,760 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 544,310
+2018-05-05 23:33:15,776 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,776 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 544,310
+2018-05-05 23:33:15,792 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,792 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 548,310
+2018-05-05 23:33:15,808 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,808 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 548,310
+2018-05-05 23:33:15,825 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,825 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 552,311
+2018-05-05 23:33:15,841 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,841 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 552,311
+2018-05-05 23:33:15,857 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,857 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 557,313
+2018-05-05 23:33:15,873 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,873 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 557,313
+2018-05-05 23:33:15,889 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,889 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 561,314
+2018-05-05 23:33:15,905 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,905 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 561,314
+2018-05-05 23:33:15,920 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,921 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 565,316
+2018-05-05 23:33:15,936 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,936 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 565,316
+2018-05-05 23:33:15,953 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,953 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 568,319
+2018-05-05 23:33:15,970 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:15,970 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 568,319
+2018-05-05 23:33:15,986 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:15,986 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 572,321
+2018-05-05 23:33:16,002 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,002 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 572,321
+2018-05-05 23:33:16,019 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,019 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 575,324
+2018-05-05 23:33:16,035 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,035 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 575,324
+2018-05-05 23:33:16,052 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,052 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 578,327
+2018-05-05 23:33:16,068 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,068 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 578,327
+2018-05-05 23:33:16,083 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,084 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 580,331
+2018-05-05 23:33:16,099 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,099 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 580,331
+2018-05-05 23:33:16,116 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,117 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 583,335
+2018-05-05 23:33:16,133 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,133 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 583,335
+2018-05-05 23:33:16,150 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,150 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 585,338
+2018-05-05 23:33:16,166 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,166 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 585,338
+2018-05-05 23:33:16,182 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,182 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 586,342
+2018-05-05 23:33:16,198 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,198 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 586,342
+2018-05-05 23:33:16,214 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,215 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 588,347
+2018-05-05 23:33:16,231 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,231 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 588,347
+2018-05-05 23:33:16,248 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,248 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 589,351
+2018-05-05 23:33:16,264 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,264 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 589,351
+2018-05-05 23:33:16,280 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,280 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 589,355
+2018-05-05 23:33:16,296 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,296 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 589,355
+2018-05-05 23:33:16,312 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,312 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 590,360
+2018-05-05 23:33:16,328 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,328 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 590,360
+2018-05-05 23:33:16,345 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,346 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 589,364
+2018-05-05 23:33:16,362 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,362 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 589,364
+2018-05-05 23:33:16,379 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,379 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 589,368
+2018-05-05 23:33:16,394 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,394 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 589,368
+2018-05-05 23:33:16,411 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,411 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 588,372
+2018-05-05 23:33:16,428 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,428 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 588,372
+2018-05-05 23:33:16,444 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,445 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 586,377
+2018-05-05 23:33:16,461 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,461 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 586,377
+2018-05-05 23:33:16,478 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,478 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 585,381
+2018-05-05 23:33:16,494 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,495 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 585,381
+2018-05-05 23:33:16,511 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,512 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 583,385
+2018-05-05 23:33:16,529 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,529 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 583,385
+2018-05-05 23:33:16,545 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,545 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 580,388
+2018-05-05 23:33:16,561 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,561 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 580,388
+2018-05-05 23:33:16,577 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,577 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 578,392
+2018-05-05 23:33:16,593 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,593 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 578,392
+2018-05-05 23:33:16,609 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,609 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 575,395
+2018-05-05 23:33:16,625 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,625 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 575,395
+2018-05-05 23:33:16,641 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,641 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 572,398
+2018-05-05 23:33:16,658 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,658 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 572,398
+2018-05-05 23:33:16,675 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,676 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 568,400
+2018-05-05 23:33:16,693 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,693 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 568,400
+2018-05-05 23:33:16,709 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,709 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 565,403
+2018-05-05 23:33:16,725 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,725 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 565,403
+2018-05-05 23:33:16,741 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,741 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 561,405
+2018-05-05 23:33:16,757 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,757 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 561,405
+2018-05-05 23:33:16,772 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,773 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 557,406
+2018-05-05 23:33:16,788 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,788 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 557,406
+2018-05-05 23:33:16,805 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,805 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 552,408
+2018-05-05 23:33:16,821 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,821 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 552,408
+2018-05-05 23:33:16,837 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,837 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 548,409
+2018-05-05 23:33:16,853 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,853 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 548,409
+2018-05-05 23:33:16,869 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,869 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 544,409
+2018-05-05 23:33:16,886 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,886 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 544,409
+2018-05-05 23:33:16,903 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,903 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 540,410
+2018-05-05 23:33:16,919 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,919 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 540,410
+2018-05-05 23:33:16,936 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,937 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 535,409
+2018-05-05 23:33:16,953 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,954 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 535,409
+2018-05-05 23:33:16,970 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:16,971 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 531,409
+2018-05-05 23:33:16,986 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:16,987 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 531,409
+2018-05-05 23:33:17,002 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,003 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 527,408
+2018-05-05 23:33:17,019 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,019 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 527,408
+2018-05-05 23:33:17,036 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,036 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 522,406
+2018-05-05 23:33:17,052 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,052 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 522,406
+2018-05-05 23:33:17,068 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,068 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 518,405
+2018-05-05 23:33:17,084 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,084 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 518,405
+2018-05-05 23:33:17,100 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,100 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 515,403
+2018-05-05 23:33:17,116 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,116 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 515,403
+2018-05-05 23:33:17,132 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,133 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 511,400
+2018-05-05 23:33:17,149 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,149 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 511,400
+2018-05-05 23:33:17,167 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,167 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 507,398
+2018-05-05 23:33:17,183 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,183 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 507,398
+2018-05-05 23:33:17,199 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,199 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 504,395
+2018-05-05 23:33:17,215 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,215 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 504,395
+2018-05-05 23:33:17,231 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,231 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 501,392
+2018-05-05 23:33:17,247 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,247 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 501,392
+2018-05-05 23:33:17,264 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,264 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 499,388
+2018-05-05 23:33:17,280 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,280 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 499,388
+2018-05-05 23:33:17,296 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,296 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 496,385
+2018-05-05 23:33:17,312 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,312 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 496,385
+2018-05-05 23:33:17,329 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,329 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 494,381
+2018-05-05 23:33:17,346 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,346 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 494,381
+2018-05-05 23:33:17,363 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,363 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 493,377
+2018-05-05 23:33:17,379 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,380 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 493,377
+2018-05-05 23:33:17,395 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,395 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 491,372
+2018-05-05 23:33:17,411 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,411 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 491,372
+2018-05-05 23:33:17,427 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,428 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,368
+2018-05-05 23:33:17,444 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,445 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,368
+2018-05-05 23:33:17,460 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,461 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,364
+2018-05-05 23:33:17,477 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,477 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,364
+2018-05-05 23:33:17,493 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,494 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,360
+2018-05-05 23:33:17,510 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,510 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,360
+2018-05-05 23:33:17,526 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,527 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,355
+2018-05-05 23:33:17,543 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,543 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,355
+2018-05-05 23:33:17,559 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,560 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,351
+2018-05-05 23:33:17,575 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,575 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 490,351
+2018-05-05 23:33:17,592 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,592 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 491,347
+2018-05-05 23:33:17,608 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,608 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 491,347
+2018-05-05 23:33:17,624 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,625 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 493,342
+2018-05-05 23:33:17,639 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,639 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 493,342
+2018-05-05 23:33:17,656 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,656 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 494,338
+2018-05-05 23:33:17,673 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,674 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 494,338
+2018-05-05 23:33:17,689 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,690 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 496,335
+2018-05-05 23:33:17,706 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,706 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 496,335
+2018-05-05 23:33:17,722 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,723 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 499,331
+2018-05-05 23:33:17,740 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,740 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 499,331
+2018-05-05 23:33:17,756 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,756 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 501,327
+2018-05-05 23:33:17,772 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,772 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 501,327
+2018-05-05 23:33:17,788 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,789 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 504,324
+2018-05-05 23:33:17,805 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,805 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 504,324
+2018-05-05 23:33:17,822 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,823 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 507,321
+2018-05-05 23:33:17,838 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,838 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 507,321
+2018-05-05 23:33:17,855 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,856 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 511,319
+2018-05-05 23:33:17,872 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,872 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 511,319
+2018-05-05 23:33:17,889 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,890 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 515,316
+2018-05-05 23:33:17,906 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,906 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 515,316
+2018-05-05 23:33:17,923 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,923 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 518,314
+2018-05-05 23:33:17,939 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,939 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 518,314
+2018-05-05 23:33:17,955 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,956 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 522,313
+2018-05-05 23:33:17,971 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:17,971 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 522,313
+2018-05-05 23:33:17,988 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:17,988 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 527,311
+2018-05-05 23:33:18,004 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:18,004 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 527,311
+2018-05-05 23:33:18,019 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:18,020 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 531,310
+2018-05-05 23:33:18,036 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:18,036 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 531,310
+2018-05-05 23:33:18,052 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:18,053 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 535,310
+2018-05-05 23:33:18,069 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:18,069 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 535,310
+2018-05-05 23:33:18,086 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:18,087 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 540,310
+2018-05-05 23:33:18,103 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:18,103 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 540,310
+2018-05-05 23:33:18,120 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:18,120 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 544,310
+2018-05-05 23:33:18,137 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:18,137 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 544,310
+2018-05-05 23:33:18,154 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:18,154 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 548,310
+2018-05-05 23:33:18,170 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:18,170 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 548,310
+2018-05-05 23:33:18,187 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:18,188 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 552,311
+2018-05-05 23:33:18,204 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:18,204 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 552,311
+2018-05-05 23:33:18,221 - my_logger.battle_screen.screen.beyblade - INFO - rotate
+2018-05-05 23:33:18,221 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 557,313
+2018-05-05 23:33:18,339 - my_logger.battle_screen.screen.beyblade - INFO - dont rotate
+2018-05-05 23:33:18,339 - my_logger.battle_screen.screen.beyblade - INFO - Center pos: 557,313
+2018-05-05 23:33:18,342 - my_logger - INFO - on_cleanup
