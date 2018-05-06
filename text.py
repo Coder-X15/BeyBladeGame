@@ -26,8 +26,8 @@ class Text:
         else:
             self._textSurfaceObj = self._font_obj.render(self._text, True, self._text_color, self._bgd_color)
 
-        self._textRectObj = self._textSurfaceObj.get_rect()  # (3) create a rect object for the text
-        self._textRectObj.center = (self._center_posx, self._center_posy)  # (4) position the rect object
+        # self._textRectObj = self._textSurfaceObj.get_rect()  # (3) create a rect object for the text
+        # self._textRectObj.center = (self._center_posx, self._center_posy)  # (4) position the rect object
         return
 
     def get_rect(self):

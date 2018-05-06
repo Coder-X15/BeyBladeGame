@@ -22,12 +22,12 @@ class MainMenuScreen(Screen):
 
     def on_update(self):
         for key, button in self._buttons.items():
-            if button.on_update(self.mouse_clicked, self.mousex, self.mousey):
+            if button.on_update(self._mouse_clicked, self._mousex, self._mousey):
                 self.on_exit(key)
         return
 
     def on_render(self):
-        # self._display_surf.fill(black)  # clear screen
+        self._display_surf.fill(BLACK)  # clear screen
         self._display_surf.blit(self._background_surf, (int(WIDTH/4), int(HEIGHT/8)))
         for button in self._buttons.values():
             button.on_render(self._display_surf)
@@ -37,8 +37,10 @@ class MainMenuScreen(Screen):
     def on_exit(self, key):
         self._running = False
         if key == "play":
-            from battle_screen import BattleScreen
-            self._next_screen = BattleScreen
+            # from battle_screen import BattleScreen
+            # self._next_screen = BattleScreen
+            from player_selection_screen import PlayerSelectionScreen
+            self._next_screen = PlayerSelectionScreen
         elif key == "quit":
             self._next_screen = None
         return

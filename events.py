@@ -4,9 +4,9 @@ from pygame.locals import *
 
 class CEvent(object):
     def __init__(self):
-        self.mousex = None
-        self.mousey = None
-        self.mouse_clicked = False
+        self._mousex = 0
+        self._mousey = 0
+        self._mouse_clicked = False
         pass
 
     def on_input_focus(self):
@@ -28,14 +28,14 @@ class CEvent(object):
         pass
 
     def on_mouse_move(self, event):
-        self.mousex, self.mousey = event.pos
+        self._mousex, self._mousey = event.pos
         pass
 
     def on_mouse_wheel(self):
         pass
 
     def on_lbutton_up(self, event):
-        self.mouse_clicked = True
+        self._mouse_clicked = True
         pass
 
     def on_lbutton_down(self, event):
@@ -65,7 +65,7 @@ class CEvent(object):
     def on_expose(self):
         pass
 
-    def on_exit(self):
+    def on_exit(self, key=None):
         pass
 
     def on_user(self, event):
@@ -106,7 +106,7 @@ class CEvent(object):
             self.on_mouse_move(event)
 
         elif event.type == MOUSEBUTTONUP:
-            self.mousex, self.mousey = event.pos
+            self._mousex, self._mousey = event.pos
             if event.button == 1:
                 self.on_lbutton_up(event)
             elif event.button == 2:

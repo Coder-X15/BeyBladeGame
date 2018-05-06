@@ -8,6 +8,7 @@ class Screen(CEvent):
     def __init__(self, display_surf=None, logger=None):
         assert(display_surf is not None), 'display_surf == None!'
         assert (logger is not None), 'logger == None!'
+        super().__init__()
         self.logger = logger.getChild(__name__)
         self.logger.info("__init__")
 
@@ -35,7 +36,7 @@ class Screen(CEvent):
 
     def on_execute(self):
         self.logger.info("on_execute")
-        self.mouse_clicked = False
+        self._mouse_clicked = False
 
         while self._running:
             for event in pygame.event.get():
