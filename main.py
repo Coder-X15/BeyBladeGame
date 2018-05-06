@@ -3,6 +3,7 @@ from globals import *
 from my_logger import get_logger
 from main_menu_screen import MainMenuScreen
 
+
 class App:
 
     def __init__(self):

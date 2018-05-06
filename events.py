@@ -2,8 +2,11 @@ import pygame
 from pygame.locals import *
 
 
-class CEvent:
+class CEvent(object):
     def __init__(self):
+        self.mousex = None
+        self.mousey = None
+        self.mouse_clicked = False
         pass
 
     def on_input_focus(self):
@@ -25,12 +28,14 @@ class CEvent:
         pass
 
     def on_mouse_move(self, event):
+        self.mousex, self.mousey = event.pos
         pass
 
     def on_mouse_wheel(self):
         pass
 
     def on_lbutton_up(self, event):
+        self.mouse_clicked = True
         pass
 
     def on_lbutton_down(self, event):
@@ -101,11 +106,12 @@ class CEvent:
             self.on_mouse_move(event)
 
         elif event.type == MOUSEBUTTONUP:
-            if event.button == 0:
+            self.mousex, self.mousey = event.pos
+            if event.button == 1:
                 self.on_lbutton_up(event)
-            elif event.button == 1:
-                self.on_mbutton_up(event)
             elif event.button == 2:
+                self.on_mbutton_up(event)
+            elif event.button == 3:
                 self.on_rbutton_up(event)
 
         elif event.type == MOUSEBUTTONDOWN:

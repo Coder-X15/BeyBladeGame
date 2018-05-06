@@ -9,19 +9,36 @@ class MainMenuScreen(Screen):
     def __init__(self, display_surf, logger):
         super().__init__(display_surf=display_surf, logger=logger.getChild(__name__))
         self._background_surf = pygame.image.load(os.path.join(graphics_path, "beyblade_logo.png")).convert_alpha()
-        self._background_surf = pygame.transform.scale(self._background_surf, (WIDTH, HEIGHT))
-        self._play_button = Button(self.logger, 40, 15, 100, 100, "Play", WHITE, GREEN)
+        self._background_surf = pygame.transform.scale(self._background_surf, (int(WIDTH/2), int(HEIGHT/2)))
+        self._buttons = {"play": Button(logger=self.logger,
+                                        width=40, height=15,
+                                        center_posx=int(WIDTH/2), center_posy=HEIGHT - int(HEIGHT/4),
+                                        text="Play", text_color=WHITE, bgd_color=BLACK, alt_text_color=YELLOW)}
+        self._buttons["quit"] = Button(logger=self.logger,
+                                       width=40, height=15,
+                                       center_posx=int(WIDTH/2),
+                                       center_posy=self._buttons["play"].get_center_posy()+self._buttons["play"].get_height()*3,
+                                       text="Quit Game", text_color=WHITE, bgd_color=BLACK, alt_text_color=YELLOW)
 
     def on_update(self):
-        pass
+        for key, button in self._buttons.items():
+            if button.on_update(self.mouse_clicked, self.mousex, self.mousey):
+                self.on_exit(key)
+        return
 
     def on_render(self):
         # self._display_surf.fill(black)  # clear screen
-        self._display_surf.blit(self._background_surf, (0, 0))
-        self._play_button.on_render(self._display_surf)
+        self._display_surf.blit(self._background_surf, (int(WIDTH/4), int(HEIGHT/8)))
+        for button in self._buttons.values():
+            button.on_render(self._display_surf)
         super().on_render()
+        return
 
-    def on_exit(self):
+    def on_exit(self, key):
         self._running = False
-        from battle_screen import BattleScreen
-        self._next_screen = BattleScreen
+        if key == "play":
+            from battle_screen import BattleScreen
+            self._next_screen = BattleScreen
+        elif key == "quit":
+            self._next_screen = None
+        return
