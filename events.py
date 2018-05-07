@@ -88,7 +88,7 @@ class CEvent(object):
 
     def on_event(self, event):
         if event.type == pygame.QUIT:
-            self.on_exit()
+            self.on_exit(event)
 
         elif event.type >= USEREVENT:
             self.on_user(event)

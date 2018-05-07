@@ -1,4 +1,8 @@
-2018-05-07 00:09:34,930 - my_logger - INFO - __init__
-2018-05-07 00:09:35,586 - my_logger.main_menu_screen.screen - INFO - __init__
-2018-05-07 00:09:35,602 - my_logger - INFO - on_execute
-2018-05-07 00:09:35,602 - my_logger.main_menu_screen.screen - INFO - on_execute
+2018-05-07 23:19:50,865 - my_logger - INFO - __init__
+2018-05-07 23:19:51,580 - my_logger.main_menu_screen.screen - INFO - __init__
+2018-05-07 23:19:51,597 - my_logger - INFO - on_execute
+2018-05-07 23:19:51,597 - my_logger.main_menu_screen.screen - INFO - on_execute
+2018-05-07 23:19:52,473 - my_logger.player_selection_screen.screen - INFO - __init__
+2018-05-07 23:19:52,977 - my_logger.player_selection_screen.screen - INFO - on_execute
+2018-05-07 23:19:57,260 - my_logger.player_selection_screen.screen - INFO - Player selected <Event(12-Quit {})> beyblade
+2018-05-07 23:19:57,265 - my_logger - INFO - on_cleanup

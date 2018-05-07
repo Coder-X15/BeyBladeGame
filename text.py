@@ -2,14 +2,15 @@ import pygame
 
 
 class Text:
-    def __init__(self, text, center_posx, center_posy, text_color, bgd_color, alt_text_color):
+    def __init__(self, text, center_posx, center_posy, text_color, bgd_color, alt_text_color, font_size=32):
         self._text = text
         self._center_posx = center_posx
         self._center_posy = center_posy
         self._text_color = text_color
         self._bgd_color = bgd_color
         self._alt_text_color = alt_text_color
-        self._font_obj = pygame.font.Font('freesansbold.ttf', 32)  # (1) create a pygame font object
+        self._font_size = font_size
+        self._font_obj = pygame.font.Font('freesansbold.ttf', font_size)  # (1) create a pygame font object
         self._textSurfaceObj = self._font_obj.render(self._text, True, self._text_color, self._bgd_color)
         self._textRectObj = self._textSurfaceObj.get_rect()  # (3) create a rect object for the text
         self._textRectObj.center = (self._center_posx, self._center_posy)  # (4) position the rect object
