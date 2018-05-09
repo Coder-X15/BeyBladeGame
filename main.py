@@ -8,13 +8,12 @@ from player_selection_screen import PlayerSelectionScreen
 class App:
 
     def __init__(self):
-        # TODO: app shouldn't be a screen, it should call pygame.init() and pygame.quit() and remove it from screen, screen should inherit the surface
         self.logger = logger
         logger.info("__init__")
         pygame.init()
         self._display_surf = pygame.display.set_mode((WIDTH, HEIGHT), pygame.HWSURFACE | pygame.DOUBLEBUF)
-        # self._active_screen = MainMenuScreen(display_surf=self._display_surf, logger=logger)
-        self._active_screen = PlayerSelectionScreen(display_surf=self._display_surf, logger=logger)
+        self._active_screen = MainMenuScreen(display_surf=self._display_surf, logger=logger)
+        # self._active_screen = PlayerSelectionScreen(display_surf=self._display_surf, logger=logger)
         self._running = True
 
     def on_cleanup(self):

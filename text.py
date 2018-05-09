@@ -33,3 +33,9 @@ class Text:
 
     def get_rect(self):
         return self._textRectObj
+
+    def get_text(self):
+        return self._text
+
+    def __str__(self):
+        return  self._text

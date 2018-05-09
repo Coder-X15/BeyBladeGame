@@ -1,4 +1,5 @@
 import pygame
+from text import Text
 
 
 def calc_relative_width(max_value, value, width):
@@ -38,5 +39,25 @@ class Bar:
         if self._bgd_bar_color is not None:
             pygame.draw.rect(display_surf, self._bgd_bar_color, self._bgd_bar_rect)
         pygame.draw.rect(display_surf, self._color, self._bar_rect)
+        return
+
+
+class TextBar(Bar):
+    def __init__(self, text, text_centerx, text_centery, text_color, bgd_text_color, alt_text_color, font_size,
+                 value, max_value, width, bar_left, bar_color, bar_bgd_color):
+        self._text = text
+        self._text_obj = Text(text, text_centerx, text_centery, text_color, bgd_text_color, alt_text_color, font_size)
+
+        bar_height = self._text_obj.get_rect().height
+        # left = self._text_obj. get_rect().right + 10
+        bar_top = self._text_obj.get_rect().top
+
+        super(TextBar, self).__init__(value, max_value, width, bar_height, bar_left, bar_top, bar_color, bar_bgd_color)
+
+        return
+
+    def on_render(self, display_surf):
+        super(TextBar, self).on_render(display_surf)
+        self._text_obj.on_render(display_surf)
         return
 

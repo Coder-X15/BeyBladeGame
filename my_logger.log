@@ -1,5 +1,7 @@
-2018-05-09 16:04:31,742 - my_logger - INFO - __init__
-2018-05-09 16:04:32,430 - my_logger.player_selection_screen.screen - INFO - __init__
-2018-05-09 16:04:33,192 - my_logger - INFO - on_execute
-2018-05-09 16:04:33,193 - my_logger.player_selection_screen.screen - INFO - on_execute
-2018-05-09 16:05:55,576 - my_logger - INFO - on_cleanup
+2018-05-09 22:25:56,492 - my_logger - INFO - __init__
+2018-05-09 22:25:57,234 - my_logger.main_menu_screen.screen - INFO - __init__
+2018-05-09 22:25:57,251 - my_logger - INFO - on_execute
+2018-05-09 22:25:57,252 - my_logger.main_menu_screen.screen - INFO - on_execute
+2018-05-09 22:25:58,250 - my_logger.player_selection_screen.screen - INFO - __init__
+2018-05-09 22:25:59,020 - my_logger.player_selection_screen.screen - INFO - on_execute
+2018-05-09 22:26:23,726 - my_logger - INFO - on_cleanup
