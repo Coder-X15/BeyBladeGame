@@ -2,6 +2,7 @@
 # from battle_screen import BattleScreen
 
 graphics_path = "sources\graphics"
+profiles_path = "sources\profiles"
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)

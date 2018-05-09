@@ -8,7 +8,7 @@ class Screen(CEvent):
     def __init__(self, display_surf=None, logger=None):
         assert(display_surf is not None), 'display_surf == None!'
         assert (logger is not None), 'logger == None!'
-        super().__init__()
+        super(Screen, self).__init__()
         self.logger = logger.getChild(__name__)
         self.logger.info("__init__")
 
@@ -24,14 +24,15 @@ class Screen(CEvent):
     def on_render(self):
         pygame.display.update()
         # pygame.display.flip()
-        milliseconds = self.clock.tick(FPS)
+        # milliseconds = self.clock.tick(FPS)
         # self._playtime += milliseconds / 1000.0
         # text = "FPS: {0:.2f}   Playtime: {1:.2f}".format(self.clock.get_fps(), self._playtime)
         text = "FPS: {0:.2f}".format(self.clock.get_fps())
         pygame.display.set_caption(text)
         pass
 
-    def on_exit(self):
+    def on_exit(self, key=None):
+        # key can be a reference to the class of the next screen
         self._running = False
 
     def on_execute(self):

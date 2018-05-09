@@ -7,7 +7,7 @@ from textbutton import TextButton
 
 class MainMenuScreen(Screen):
     def __init__(self, display_surf, logger):
-        super().__init__(display_surf=display_surf, logger=logger.getChild(__name__))
+        super(MainMenuScreen, self).__init__(display_surf=display_surf, logger=logger.getChild(__name__))
         self._background_surf = pygame.image.load(os.path.join(graphics_path, "beyblade_logo.png")).convert_alpha()
         self._background_surf = pygame.transform.scale(self._background_surf, (int(WIDTH / 2), int(HEIGHT / 2)))
         font_size = 32  # text buttons font size
@@ -36,7 +36,7 @@ class MainMenuScreen(Screen):
         self._display_surf.blit(self._background_surf, (int(WIDTH / 4), int(HEIGHT / 8)))
         for button in self._buttons.values():
             button.on_render(self._display_surf)
-        super().on_render()
+        super(MainMenuScreen, self).on_render()
         return
 
     def on_exit(self, key):

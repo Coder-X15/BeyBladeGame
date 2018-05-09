@@ -5,7 +5,7 @@ from textbutton import *
 
 class PlayerSelectionScreen(Screen):
     def __init__(self, display_surf, logger):
-        super().__init__(display_surf=display_surf, logger=logger.getChild(__name__))
+        super(PlayerSelectionScreen, self).__init__(display_surf=display_surf, logger=logger.getChild(__name__))
         self._beyblades = {}
         self.create_bb_buttons()
         return
@@ -82,6 +82,8 @@ class PlayerSelectionScreen(Screen):
     def on_update(self):
         for key, image_btn in self._beyblades.items():
             if image_btn.on_update(self._mouse_clicked, self._mousex, self._mousey):
+                from save_load_module import save
+                save(save_dict={"beyblade": key})
                 self.on_exit(key)
         return
 
@@ -89,9 +91,11 @@ class PlayerSelectionScreen(Screen):
         self._display_surf.fill(BLACK)  # clear screen
         for image_btn in self._beyblades.values():
             image_btn.on_render(self._display_surf)
-        super().on_render()
+        super(PlayerSelectionScreen, self).on_render()
         return
 
     def on_exit(self, key):
         self._running = False
+        from battle_screen import BattleScreen
+        self._next_screen = BattleScreen
         self.logger.info("Player selected {} beyblade".format(key))

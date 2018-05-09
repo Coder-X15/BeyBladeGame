@@ -4,7 +4,7 @@ from text import Text
 import os
 
 
-class Button:
+class Button(object):
     def __init__(self, logger, width, height, centerx, centery):
         self.logger = logger.getChild(__name__)
         self._width = width

@@ -1,14 +1,16 @@
 from screen import Screen
 from globals import *
 from beyblade import Beyblade
+from save_load_module import load
 
 
 class BattleScreen(Screen):
     def __init__(self, display_surf, logger):
-        super().__init__(display_surf=display_surf, logger=logger.getChild(__name__))
+        super(BattleScreen, self).__init__(display_surf=display_surf, logger=logger.getChild(__name__))
         self.beyblades_list = []
+        image = load(key="beyblade") + '.png'
         self.beyblades_list.append(Beyblade(logger=self.logger,
-                                            image='golden.png',
+                                            image=image,
                                             rotation_speed=MEDIUM_SPEED,
                                             movement_speed=MEDIUM_SPEED))
 
@@ -21,7 +23,7 @@ class BattleScreen(Screen):
         self._display_surf.fill(BLACK)  # clear screen
         for beyblade in self.beyblades_list:
             beyblade.render(self._display_surf)
-        super().on_render()
+        super(BattleScreen, self).on_render()
 
     def on_exit(self):
         self._running = False
