@@ -131,9 +131,12 @@ class ImageTextButton(Button):
         self._mouse_floats = False
         return
 
-    def on_update(self, clicked, mousex, mousey):
+    def on_collide(self, mousex, mousey):
         text_rect = self._text_obj.get_rect()
-        mouse_floats = self._image_surf_rect.collidepoint(mousex, mousey) | text_rect.collidepoint(mousex, mousey)
+        return self._image_surf_rect.collidepoint(mousex, mousey) | text_rect.collidepoint(mousex, mousey)
+
+    def on_update(self, clicked, mousex, mousey):
+        mouse_floats = self.on_collide(mousex, mousey)
         self._text_obj.on_update(mouse_floats=mouse_floats)
         if mouse_floats:
             self._image_surf = self._image_surf_large

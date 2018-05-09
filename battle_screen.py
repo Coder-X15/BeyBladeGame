@@ -16,16 +16,16 @@ class BattleScreen(Screen):
 
     def on_update(self):
         for beyblade in self.beyblades_list:
-            beyblade.update()
+            beyblade.on_update()
         pass
 
     def on_render(self):
         self._display_surf.fill(BLACK)  # clear screen
         for beyblade in self.beyblades_list:
-            beyblade.render(self._display_surf)
+            beyblade.on_render(self._display_surf)
         super(BattleScreen, self).on_render()
 
-    def on_exit(self):
+    def on_exit(self, key=None):
         self._running = False
         # from main_menu_screen import MainMenuScreen
         # self._next_screen = MainMenuScreen

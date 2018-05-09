@@ -72,12 +72,12 @@ class Beyblade(object):
         self._angle_degree = self._angle_degree % 360
         return
 
-    def update(self):
+    def on_update(self):
         self.rotate()
         self.move_in_circle()
         self.logger.info("Center pos: {},{}".format(self._image_surf_rect.centerx, self._image_surf_rect.centery))
         return
 
-    def render(self, display_surf):
+    def on_render(self, display_surf):
         display_surf.blit(self._image_surf, (self._image_surf_rect.left, self._image_surf_rect.top))
         return

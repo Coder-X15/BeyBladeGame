@@ -2,7 +2,7 @@ import os
 import pygame
 from globals import *
 from screen import Screen
-from textbutton import TextButton
+from buttons import TextButton
 
 
 class MainMenuScreen(Screen):

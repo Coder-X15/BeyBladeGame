@@ -65,7 +65,7 @@ class CEvent(object):
     def on_expose(self):
         pass
 
-    def on_exit(self, key=None):
+    def on_exit(self):
         pass
 
     def on_user(self, event):
