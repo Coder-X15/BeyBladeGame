@@ -1,6 +1,6 @@
 import pygame
-from globals import *
 from events import CEvent
+from globals import *
 
 
 class Screen(CEvent):
@@ -16,6 +16,8 @@ class Screen(CEvent):
         self.clock = pygame.time.Clock()
         self._running = True
         self._next_screen = None
+
+        self._display_surf.fill(BLACK)  # clear screen from prev screen
         return
 
     def on_update(self):

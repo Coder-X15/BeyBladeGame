@@ -12,8 +12,8 @@ class App:
         logger.info("__init__")
         pygame.init()
         self._display_surf = pygame.display.set_mode((WIDTH, HEIGHT), pygame.HWSURFACE | pygame.DOUBLEBUF)
-        self._active_screen = MainMenuScreen(display_surf=self._display_surf, logger=logger)
-        # self._active_screen = PlayerSelectionScreen(display_surf=self._display_surf, logger=logger)
+        # self._active_screen = MainMenuScreen(display_surf=self._display_surf, logger=logger)
+        self._active_screen = PlayerSelectionScreen(display_surf=self._display_surf, logger=logger)
         self._running = True
 
     def on_cleanup(self):

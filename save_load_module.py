@@ -3,7 +3,9 @@ import shelve
 from globals import profiles_path
 
 
-def save(filename="savegame", save_dict={}):
+def save(filename="savegame", save_dict=None):
+    if save_dict is None:
+        save_dict = {}
     if not any(save_dict):
         print("ERROR: got empty save_dict")
         return False

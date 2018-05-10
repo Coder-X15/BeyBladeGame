@@ -1,4 +1,3 @@
-from globals import *
 from screen import Screen
 from buttons import *
 from profile_window import ProfileWindow

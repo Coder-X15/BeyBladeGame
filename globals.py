@@ -4,7 +4,7 @@
 WIDTH = 1080
 HEIGHT = 720
 
-FPS = 30
+FPS = 60
 
 graphics_path = "sources\graphics"
 profiles_path = "sources\profiles"
@@ -27,9 +27,11 @@ BEYBLADES_LIST = ["atomic", "demon", "fire_spirit", "golden", "imp",
 
 MAX_ATTRIBUTE = 100
 
+BB_SIZE = 100  # width = height
+
 LOW_SPEED = 3
 MEDIUM_SPEED = 2
 HIGH_SPEED = 1
 
-
+MAX_RADIUS = int(HEIGHT / 2.0)  # calculate the MAX BB bowl move radius
 
