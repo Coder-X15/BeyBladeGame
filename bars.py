@@ -7,8 +7,8 @@ def calc_relative_width(max_value, value, width):
     return relative_width
 
 
-class Bar:
-    def __init__(self, value: int, max_value: int, width: int, height: int, left: int, top: int,
+class Bar(object):
+    def __init__(self, value, max_value, width, height, left, top,
                  color, bgd_bar_color=None):
         self._value = value
         self._max_value = max_value,

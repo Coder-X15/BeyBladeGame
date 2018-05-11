@@ -1,8 +1,5 @@
-2018-05-10 23:11:11,185 - my_logger - INFO - __init__
-2018-05-10 23:11:11,880 - my_logger.player_selection_screen.screen - INFO - __init__
-2018-05-10 23:11:12,662 - my_logger - INFO - on_execute
-2018-05-10 23:11:12,662 - my_logger.player_selection_screen.screen - INFO - on_execute
-2018-05-10 23:11:13,409 - my_logger.player_selection_screen.screen - INFO - Player selected fire_spirit beyblade
-2018-05-10 23:11:13,412 - my_logger.battle_screen.screen - INFO - __init__
-2018-05-10 23:11:13,524 - my_logger.battle_screen.screen - INFO - on_execute
-2018-05-10 23:11:23,443 - my_logger - INFO - on_cleanup
+2018-05-11 17:06:58,786 - my_logger - INFO - __init__
+2018-05-11 17:07:00,765 - my_logger.screen - INFO - __init__
+2018-05-11 17:07:01,030 - my_logger - INFO - on_execute
+2018-05-11 17:07:01,030 - my_logger.screen - INFO - on_execute
+2018-05-11 17:07:03,937 - my_logger - INFO - on_cleanup

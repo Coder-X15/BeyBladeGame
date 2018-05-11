@@ -1,8 +1,22 @@
+"""
+Pygame based Beyblade game
+
+Created By: Roy Mainer roymainer@gmail.com
+
+Version: 1.0
+Date: 10.5.18
+"""
+
+
 import pygame
 from globals import *
 from my_logger import get_logger
+from profiler import create_profiles
+
 from main_menu_screen import MainMenuScreen
 from player_selection_screen import PlayerSelectionScreen
+from campaign_screen import CampaignScreen
+
 
 
 class App:
@@ -11,9 +25,11 @@ class App:
         self.logger = logger
         logger.info("__init__")
         pygame.init()
+        create_profiles()
         self._display_surf = pygame.display.set_mode((WIDTH, HEIGHT), pygame.HWSURFACE | pygame.DOUBLEBUF)
         # self._active_screen = MainMenuScreen(display_surf=self._display_surf, logger=logger)
-        self._active_screen = PlayerSelectionScreen(display_surf=self._display_surf, logger=logger)
+        # self._active_screen = PlayerSelectionScreen(display_surf=self._display_surf, logger=logger)
+        self._active_screen = CampaignScreen(self._display_surf, logger, "medusa")
         self._running = True
 
     def on_cleanup(self):

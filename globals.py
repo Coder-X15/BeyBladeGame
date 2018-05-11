@@ -34,4 +34,3 @@ MEDIUM_SPEED = 2
 HIGH_SPEED = 1
 
 MAX_RADIUS = int(HEIGHT / 2.0)  # calculate the MAX BB bowl move radius
-

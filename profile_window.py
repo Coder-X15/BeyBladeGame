@@ -7,7 +7,7 @@ from globals import *
 
 
 class ProfileWindow:
-    def __init__(self, image: str, image_width: int, image_height: int, top: int, left: int, bgd_color):
+    def __init__(self, image, image_width, image_height, top, left, bgd_color):
         self._name = image.split(".png")[0]
         self._profile = load_profile(self._name)
         self._image_surf = pygame.image.load(os.path.join(graphics_path, image)).convert_alpha()
