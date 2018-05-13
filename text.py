@@ -1,4 +1,5 @@
 import pygame
+from graphic_effects import FadeInBox
 
 
 class Text:
@@ -20,7 +21,7 @@ class Text:
         display_surf.blit(self._textSurfaceObj, self._textRectObj)
         return
 
-    def on_update(self, mouse_floats):
+    def on_update(self, mouse_floats=False):
         if mouse_floats:  # if mouse cursor is over the text button
             # (2) create a surface with text drawn on it
             self._textSurfaceObj = self._font_obj.render(self._text, True, self._alt_text_color, self._bgd_color)
@@ -38,4 +39,4 @@ class Text:
         return self._text
 
     def __str__(self):
-        return  self._text
+        return self._text
