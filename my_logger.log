@@ -1,5 +1,7 @@
-2018-05-11 17:06:58,786 - my_logger - INFO - __init__
-2018-05-11 17:07:00,765 - my_logger.screen - INFO - __init__
-2018-05-11 17:07:01,030 - my_logger - INFO - on_execute
-2018-05-11 17:07:01,030 - my_logger.screen - INFO - on_execute
-2018-05-11 17:07:03,937 - my_logger - INFO - on_cleanup
+2018-05-13 22:30:15,536 - my_logger - INFO - __init__
+2018-05-13 22:30:17,641 - my_logger.screen - INFO - __init__
+2018-05-13 22:30:17,957 - my_logger.screen - INFO - Random opponent selected: valkyrie
+2018-05-13 22:30:17,957 - my_logger - INFO - on_execute
+2018-05-13 22:30:17,957 - my_logger.screen - INFO - on_execute
+2018-05-13 22:30:31,233 - my_logger.battle_screen.screen - INFO - __init__
+2018-05-13 22:30:31,369 - my_logger.battle_screen.screen - INFO - on_execute
