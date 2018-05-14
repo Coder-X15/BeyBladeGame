@@ -19,10 +19,10 @@ def save(filename="savegame", save_dict=None):
 def load(filename="savegame", key=None):
     if key is None:
         print("ERROR: Key is None!")
-        return False
+        return None
     save_game_shelf_file = shelve.open(filename)
     if key not in save_game_shelf_file:
-        return False
+        return None
     val = save_game_shelf_file[key]
     save_game_shelf_file.close()
     return val

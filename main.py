@@ -18,7 +18,6 @@ from player_selection_screen import PlayerSelectionScreen
 from campaign_screen import CampaignScreen
 
 
-
 class App:
 
     def __init__(self):
@@ -28,8 +27,8 @@ class App:
         create_profiles()
         self._display_surf = pygame.display.set_mode((WIDTH, HEIGHT), pygame.HWSURFACE | pygame.DOUBLEBUF)
         # self._active_screen = MainMenuScreen(display_surf=self._display_surf, logger=logger)
-        # self._active_screen = PlayerSelectionScreen(display_surf=self._display_surf, logger=logger)
-        self._active_screen = CampaignScreen(self._display_surf, logger, "medusa")
+        self._active_screen = PlayerSelectionScreen(display_surf=self._display_surf, logger=logger)
+        # self._active_screen = CampaignScreen(self._display_surf, logger)
         self._running = True
 
     def on_cleanup(self):

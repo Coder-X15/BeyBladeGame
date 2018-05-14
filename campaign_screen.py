@@ -9,37 +9,25 @@ from graphic_effects import *
 from screen import Screen
 from text import Text
 from buttons import TextButton
+from save_load_module import load, save
 
 BB_WIDTH, BB_HEIGHT = 120, 120
 FRAMES_TIMER = 1200
 MAX_SPEED = 5
 
 
-def shuffle_bb_list(player_bb_name):
-    assert type(player_bb_name) is StringType, "player is not a name string!"
-    rnd_bb_list = [i for i in BEYBLADES_LIST]  # copy the list
-    rnd_bb_list.remove(player_bb_name)
-    shuffle(rnd_bb_list)  # shuffle works in place and returns None
-    return rnd_bb_list
-
-
-def get_player_bb_dict(player_bb_name):
-    image = player_bb_name + '.png'
-    image_surf = pygame.image.load(os.path.join(graphics_path, image)).convert_alpha()
-    image_surf = pygame.transform.smoothscale(image_surf, (BB_WIDTH, BB_HEIGHT))
-    centerx = int(WIDTH / 2.0) - int(BB_WIDTH / 2.0)
-    image_surf_rect = image_surf.get_rect(center=(centerx, int(HEIGHT / 2.0)))
-    player_dict = {"name": player_bb_name,
-                   "image": image_surf,
-                   "rect": image_surf_rect}
-    return player_dict
-
-
 class CampaignScreen(Screen):
-    def __init__(self, display_surf, logger, player_bb_name):
+    def __init__(self, display_surf, logger):
         super(CampaignScreen, self).__init__(display_surf=display_surf, logger=logger)
+
+        # load player bb
+        player_bb_name = self.load_player_bb()
+        if player_bb_name is None:
+            player_bb_name = "medusa"
         self._player_bb_dict = get_player_bb_dict(player_bb_name)
-        self._rival_bb_dict = self.get_bb_dict()
+
+        # load opponents BB list and pick the next opponent
+        self._opponent_bb_dict = self.get_bb_dict()
         self._next_opponent_bb = self.get_next_opponent()
         self._frames_counter = 0
         self._r = np.logspace(0, 0.5, FRAMES_TIMER)  # create a non-linear list 0->~3.16
@@ -66,7 +54,7 @@ class CampaignScreen(Screen):
         # else:
         #     move_spdy = MAX_SPEED - self._r[self._frames_counter]  # keep slowing down
 
-        for bb in self._rival_bb_dict.values():
+        for bb in self._opponent_bb_dict.values():
             bb["rect"].top = (bb["rect"].top + move_spdy) % HEIGHT
 
         if self._player_bb_txt_obj is not None:
@@ -79,7 +67,7 @@ class CampaignScreen(Screen):
                     self._continue_button = TextButton(self.logger, 100, 50, int(WIDTH * 4.0/5), int(HEIGHT * 7.0 / 8),
                                                        "Continue", WHITE, RED, BRIGHTYELLOW, 32)
                 elif self._continue_button.on_update(self._mouse_clicked, self._mousex, self._mousey):
-                    self.on_exit(None)
+                    self.on_exit(True)
 
         return
 
@@ -95,7 +83,7 @@ class CampaignScreen(Screen):
         self._display_surf.blit(image, (left, top))
 
         # draw opponents moving column
-        for bb in self._rival_bb_dict.values():
+        for bb in self._opponent_bb_dict.values():
             image = bb["image"]
             left = bb["rect"].left
             if g_left is None:
@@ -122,35 +110,51 @@ class CampaignScreen(Screen):
         super(CampaignScreen, self).on_render()
         return
 
-    def on_exit(self, key):
+    def on_exit(self, key=False):
         self._running = False
-        from battle_screen import BattleScreen
-        self._next_screen = BattleScreen
+        if hasattr(key, "type"):
+            if key.type is pygame.QUIT:
+                return
+        if key:
+            from battle_screen import BattleScreen
+            self._next_screen = BattleScreen
         return
 
+    def load_player_bb(self):
+        return load(key="player_beyblade")
+
     def get_next_opponent(self):
-        possible_rivals_list = []
-        for bb in self._rival_bb_dict.values():
+        possible_opponents_list = []
+        for bb in self._opponent_bb_dict.values():
             if bb["played"] is False:
-                possible_rivals_list.append(bb)
-        opponent = choice(possible_rivals_list)
+                possible_opponents_list.append(bb)
+        opponent = choice(possible_opponents_list)
         self.logger.info("Random opponent selected: {}".format(opponent["name"]))
         return opponent
 
     def get_bb_dict(self):
-        rival_bb_list = shuffle_bb_list(self._player_bb_dict["name"])
+        opponent_bb_list = shuffle_bb_list(self._player_bb_dict["name"])
         bb_dict = {}
         centerx = int(WIDTH / 2.0) + int(BB_WIDTH / 2.0)
-        for bb in rival_bb_list:
-            centery = HEIGHT - int(BB_HEIGHT / 2.0) - BB_HEIGHT * rival_bb_list.index(bb)
+        for bb in opponent_bb_list:
+            centery = HEIGHT - int(BB_HEIGHT / 2.0) - BB_HEIGHT * opponent_bb_list.index(bb)
+
+            bb_played = load(bb + "_played")
+            if bb_played is None:
+                bb_played = False
+
             image = bb + ".png"
             image_surf = pygame.image.load(os.path.join(graphics_path, image)).convert_alpha()
             image_surf = pygame.transform.smoothscale(image_surf, (BB_WIDTH, BB_HEIGHT))
             image_surf_rect = image_surf.get_rect(center=(centerx, centery))
+
+            if bb_played:
+                image_surf.set_alpha(128)
+
             bb_dict[bb] = {"name": bb,
                            "image": image_surf,
                            "rect": image_surf_rect,
-                           "played": False}
+                           "played": bb_played}
         return bb_dict
 
     def create_fade_in_text(self):
@@ -169,3 +173,23 @@ class CampaignScreen(Screen):
                                                    txt_rect.top, txt_rect.left,
                                                    BLACK, 255)
         return
+
+
+def shuffle_bb_list(player_bb_name):
+    assert type(player_bb_name) is StringType, "player is not a name string!"
+    rnd_bb_list = [i for i in BEYBLADES_LIST]  # copy the list
+    rnd_bb_list.remove(player_bb_name)
+    shuffle(rnd_bb_list)  # shuffle works in place and returns None
+    return rnd_bb_list
+
+
+def get_player_bb_dict(player_bb_name):
+    image = player_bb_name + '.png'
+    image_surf = pygame.image.load(os.path.join(graphics_path, image)).convert_alpha()
+    image_surf = pygame.transform.smoothscale(image_surf, (BB_WIDTH, BB_HEIGHT))
+    centerx = int(WIDTH / 2.0) - int(BB_WIDTH / 2.0)
+    image_surf_rect = image_surf.get_rect(center=(centerx, int(HEIGHT / 2.0)))
+    player_dict = {"name": player_bb_name,
+                   "image": image_surf,
+                   "rect": image_surf_rect}
+    return player_dict

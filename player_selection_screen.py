@@ -1,7 +1,7 @@
-from globals import *
 from screen import Screen
 from buttons import *
 from profile_window import ProfileWindow
+from save_load_module import save
 
 # Constants
 centerx_correct = 20
@@ -116,8 +116,6 @@ class PlayerSelectionScreen(Screen):
     def on_update(self):
         for key, image_btn in self._beyblades.items():
             if image_btn.on_update(self._mouse_clicked, self._mousex, self._mousey):
-                from save_load_module import save
-                save(save_dict={"beyblade": key})
                 self._selected_beyblade = key
                 self.on_exit(key)
 
@@ -141,7 +139,17 @@ class PlayerSelectionScreen(Screen):
 
     def on_exit(self, key):
         self._running = False
+        if hasattr(key, "type"):
+            if key.type is pygame.QUIT:
+                return
+
         if self._selected_beyblade is not None:
-            from battle_screen import BattleScreen
-            self._next_screen = BattleScreen
+            from campaign_screen import CampaignScreen
+            self._next_screen = CampaignScreen
+
+            # save selected player BB to savegame file
+            from save_load_module import save
+            save(save_dict={"player_beyblade": key})
+
             self.logger.info("Player selected {} beyblade".format(key))
+        return
