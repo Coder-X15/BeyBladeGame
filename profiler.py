@@ -1,5 +1,4 @@
 import os
-import shutil
 import shelve
 from globals import profiles_path
 

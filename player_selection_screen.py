@@ -115,7 +115,7 @@ class PlayerSelectionScreen(Screen):
 
     def on_update(self):
         for key, image_btn in self._beyblades.items():
-            if image_btn.on_update(self._mouse_clicked, self._mousex, self._mousey):
+            if image_btn.on_update(self._l_mouse_clicked, self._mousex, self._mousey):
                 self._selected_beyblade = key
                 self.on_exit(key)
 

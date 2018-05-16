@@ -16,6 +16,7 @@ from profiler import create_profiles
 from main_menu_screen import MainMenuScreen
 from player_selection_screen import PlayerSelectionScreen
 from campaign_screen import CampaignScreen
+from battle_screen import BattleScreen
 
 
 class App:
@@ -27,8 +28,9 @@ class App:
         create_profiles()
         self._display_surf = pygame.display.set_mode((WIDTH, HEIGHT), pygame.HWSURFACE | pygame.DOUBLEBUF)
         # self._active_screen = MainMenuScreen(display_surf=self._display_surf, logger=logger)
-        self._active_screen = PlayerSelectionScreen(display_surf=self._display_surf, logger=logger)
+        # self._active_screen = PlayerSelectionScreen(display_surf=self._display_surf, logger=logger)
         # self._active_screen = CampaignScreen(self._display_surf, logger)
+        self._active_screen = BattleScreen(self._display_surf, self.logger)
         self._running = True
 
     def on_cleanup(self):

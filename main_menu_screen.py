@@ -27,7 +27,7 @@ class MainMenuScreen(Screen):
 
     def on_update(self):
         for key, button in self._buttons.items():
-            if button.on_update(self._mouse_clicked, self._mousex, self._mousey):
+            if button.on_update(self._l_mouse_clicked, self._mousex, self._mousey):
                 self.on_exit(key)
         return
 

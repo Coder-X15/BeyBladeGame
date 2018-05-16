@@ -39,7 +39,7 @@ class Screen(CEvent):
 
     def on_execute(self):
         self.logger.info("on_execute")
-        self._mouse_clicked = False
+        self._l_mouse_clicked = False
 
         while self._running:
             for event in pygame.event.get():

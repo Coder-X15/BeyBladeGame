@@ -6,7 +6,8 @@ class CEvent(object):
     def __init__(self):
         self._mousex = 0
         self._mousey = 0
-        self._mouse_clicked = False
+        self._l_mouse_clicked = False
+        self._r_mouse_clicked = True
         pass
 
     def on_input_focus(self):
@@ -35,13 +36,14 @@ class CEvent(object):
         pass
 
     def on_lbutton_up(self, event):
-        self._mouse_clicked = True
+        self._l_mouse_clicked = True
         pass
 
     def on_lbutton_down(self, event):
         pass
 
     def on_rbutton_up(self, event):
+        self._r_mouse_clicked = True
         pass
 
     def on_rbutton_down(self, event):
@@ -65,7 +67,7 @@ class CEvent(object):
     def on_expose(self):
         pass
 
-    def on_exit(self):
+    def on_exit(self, event=None):
         pass
 
     def on_user(self, event):

@@ -1,11 +1,108 @@
-2018-05-14 13:26:09,664 - my_logger - INFO - __init__
-2018-05-14 13:26:12,089 - my_logger.player_selection_screen.screen - INFO - __init__
-2018-05-14 13:26:13,292 - my_logger - INFO - on_execute
-2018-05-14 13:26:13,292 - my_logger.player_selection_screen.screen - INFO - on_execute
-2018-05-14 13:26:19,632 - my_logger.player_selection_screen.screen - INFO - Player selected demon beyblade
-2018-05-14 13:26:19,638 - my_logger.screen - INFO - __init__
-2018-05-14 13:26:19,992 - my_logger.screen - INFO - Random opponent selected: medusa
-2018-05-14 13:26:20,000 - my_logger.screen - INFO - on_execute
-2018-05-14 13:26:35,259 - my_logger.battle_screen.screen - INFO - __init__
-2018-05-14 13:26:35,421 - my_logger.battle_screen.screen - INFO - on_execute
-2018-05-14 13:26:55,474 - my_logger - INFO - on_cleanup
+2018-05-16 22:50:12,341 - my_logger - INFO - __init__
+2018-05-16 22:50:14,529 - my_logger.battle_screen.screen - INFO - __init__
+2018-05-16 22:50:14,701 - my_logger - INFO - on_execute
+2018-05-16 22:50:14,701 - my_logger.battle_screen.screen - INFO - on_execute
+2018-05-16 22:50:14,707 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,707 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,707 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,710 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,716 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,716 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,720 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,720 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,720 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,723 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,724 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,724 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,729 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,729 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,730 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,733 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,734 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,736 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,739 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,740 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,740 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,746 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,746 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,746 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,752 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,753 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,753 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,757 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,757 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,759 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,763 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,763 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,763 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,769 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,770 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,770 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,776 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,776 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,776 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,780 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,782 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,782 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,786 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,786 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,786 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,790 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,792 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,792 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,796 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,796 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,796 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,802 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,802 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,802 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,806 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,808 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,808 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,812 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,812 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,812 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,818 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,819 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,819 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,822 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,823 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,823 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,828 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,828 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,829 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,835 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,836 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,836 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,841 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,842 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,842 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,845 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,846 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,846 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,851 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,852 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,852 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,857 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,858 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,858 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,861 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,862 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,864 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,868 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,869 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,869 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,874 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,874 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,875 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,878 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,878 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,880 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,884 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,884 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,884 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,888 - my_logger.battle_screen.screen.imp - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,890 - my_logger.battle_screen.screen.pegasus - INFO - Player: True	Center pos: 540,360
+2018-05-16 22:50:14,891 - my_logger.battle_screen.screen - INFO - Collision!
+2018-05-16 22:50:14,891 - my_logger.battle_screen.screen - INFO - Player Lost!
+2018-05-16 22:50:14,894 - my_logger - INFO - on_cleanup

@@ -1,3 +1,19 @@
+"""
+Save Load Module
+Created by: Roy Mainer, May 2018
+
+Savegame Dictionary Fields:
+"player_beyblade"   : name of the player's BB
+"opp_beyblade" : name of the opponent's BB
+
+"Profile Dictionary Fields":
+"hp"    : BB hit points
+"atk"   : BB atk value, how much damage the BB causes other BBs when it hits them
+"def"   : BB def value, dmg reduced when BB is hit
+"spd"   : BB spd value, movement speed, max radius from the arena center
+"""
+
+
 import os
 import shelve
 from globals import profiles_path
