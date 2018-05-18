@@ -1,3 +1,13 @@
+"""
+Beyblade Class
+
+HP: BB's health before it breaks
+ATK: BB's damage when hitting an opponent BB
+DEF: BB's defense when being hit
+SPD: BB's attack speed, how fast can it move in a vector or evade. It can also determine the BB's movement radius
+"""
+
+
 import pygame
 from globals import *
 from save_load_module import load_profile
@@ -33,7 +43,7 @@ class Beyblade(object):
             self._angle_degree = 0
 
         self.load_image(name+'.png')
-        self._radius = self.get_radius()
+        self._radius = self.get_max_radius()
 
         self._attacking = False
         self._passed_through_center = False  # the BB passed through the center while trying to attack, if reached the edge stop the attack
@@ -122,22 +132,22 @@ class Beyblade(object):
         self._angle_degree += int(self._spd * 1.0 / MAX_ATTRIBUTE)
         return
 
-    def collided(self, opp_attack):
+    def collided(self, opp_attack, opp_spd):
         self._attacking = False
         self._hp -= int(opp_attack * 1.0 * self._def / MAX_ATTRIBUTE)
-        self._spd -= int(opp_attack * 1.0 / MAX_ATTRIBUTE)
+        self._spd = max(10, self._spd - opp_spd)  # speed cannot decrease below 10
         pass
 
     def get_radius(self):
         # faster BBs can move with greater radius
-        return self._spd * 1.0 / MAX_ATTRIBUTE * MAX_RADIUS - self._image_surf_rect.width
+        # return self._spd * 1.0 / MAX_ATTRIBUTE * MAX_RADIUS - self._image_surf_rect.width
         # TODO: need to fix this!
-        # return calc_distance(self._image_surf_rect.centerx, self._image_surf_rect.centery,
-        #                      int(WIDTH/2.0), int(HEIGHT/2.0))
+        return calc_distance(self._image_surf_rect.centerx, self._image_surf_rect.centery,
+                             int(WIDTH/2.0), int(HEIGHT/2.0))
 
     def get_max_radius(self):
         # returns the maximum radius for the BB
-        return self._max_spd * 1.0 / MAX_ATTRIBUTE * MAX_RADIUS - self._image_surf_rect.width
+        return self._max_spd * MAX_RADIUS * 1.0 / MAX_ATTRIBUTE - self._image_surf_rect.width
 
     def get_rect(self):
         return self._image_surf_rect

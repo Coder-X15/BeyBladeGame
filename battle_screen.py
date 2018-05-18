@@ -101,8 +101,8 @@ class BattleScreen(Screen):
 
         if self._check_collision():
             self.logger.info("Collision!")
-            self._player_bb.collided(opp_attack=self._opp_bb.get_atk())
-            self._opp_bb.collided(opp_attack=self._player_bb.get_atk())
+            self._player_bb.collided(opp_attack=self._opp_bb.get_atk(), opp_spd=self._opp_bb.get_spd())
+            self._opp_bb.collided(opp_attack=self._player_bb.get_atk(), opp_spd=self._player_bb.get_spd())
 
         if self._player_bb.get_hp() <= 0:
             self.logger.info("Player Lost!")
