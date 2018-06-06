@@ -21,7 +21,7 @@ class Beyblade(object):
         self._logger = logger.getChild(name)
 
         self._name = name
-        self._player = True
+        self._player = player
         self._bb_profile = load_profile(name)
 
         # load profile
@@ -31,6 +31,8 @@ class Beyblade(object):
         self._def = self._bb_profile["def"]
         self._max_spd = self._bb_profile["spd"]
         self._spd = int(self._max_spd)
+        self._max_radius = self.get_max_radius()
+        self._radius = self._max_radius
         self._rotation_speed = None
 
         self._image_surf = None
@@ -54,15 +56,21 @@ class Beyblade(object):
     def on_update(self):
         self.rotate()
 
-        if self.get_radius() > self.get_max_radius():
+        radius = self.get_radius()
+        max_radius = self.get_max_radius()
+
+        if radius > max_radius:
             # BB reached the edge of the arena
-            self._logger.error("actual radius: {} > max radius: {}".format(self.get_radius(), self.get_max_radius()))
+            self._logger.error("actual radius: {} > max radius: {}".format(radius, max_radius))
             self._attacking = False
 
-        if not self._attacking:
-            self.move_in_circle()
-        else:
-            self.move_in_vector()
+        if self._attacking:
+            self._update_radius()
+
+        # if not self._attacking:
+        #     self.move_in_circle()
+        # else:
+        #     self.move_in_vector()
         self._logger.info("Player: {}\tCenter pos: {},{}".
                           format(self._player, self._image_surf_rect.centerx, self._image_surf_rect.centery))
         return
@@ -92,13 +100,20 @@ class Beyblade(object):
 
         self._image_surf_rect.centerx = WIDTH / 2 + (self._radius * math.cos(angle_radians))
         self._image_surf_rect.centery = HEIGHT / 2 + (self._radius * math.sin(angle_radians))
-        self._angle_degree += 0.5
+        # self._angle_degree += 0.5
+        self._angle_degree += 1 * self._spd / MAX_ATTRIBUTE
         return
 
     def attack(self, opp_centerx, opp_centery):
         self._attacking = True
-        self.calc_movement_vector(opp_centerx, opp_centery)
+        # self.calc_movement_vector(opp_centerx, opp_centery)
         return
+
+    def _update_radius(self):
+        if not self._attacking:
+            return
+
+        self._radius -= 
 
     def calc_movement_vector(self, opp_centerx, opp_centery):
         bb_centerx = self._image_surf_rect.centerx
@@ -147,7 +162,8 @@ class Beyblade(object):
 
     def get_max_radius(self):
         # returns the maximum radius for the BB
-        return self._max_spd * MAX_RADIUS * 1.0 / MAX_ATTRIBUTE - self._image_surf_rect.width
+        return self._max_spd * MAX_RADIUS * 1.0 / MAX_ATTRIBUTE
+        # return self._max_spd * MAX_RADIUS * 1.0 / MAX_ATTRIBUTE - self._image_surf_rect.width/2
 
     def get_rect(self):
         return self._image_surf_rect

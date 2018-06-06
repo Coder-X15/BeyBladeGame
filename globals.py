@@ -25,7 +25,7 @@ DARKGRAY = (40, 40, 40)
 BEYBLADES_LIST = ["atomic", "demon", "fire_spirit", "golden", "imp",
                   "kraken", "medusa", "pegasus", "unicorn", "valkyrie"]
 
-MAX_ATTRIBUTE = 100
+MAX_ATTRIBUTE = 100.0
 
 BB_SIZE = 100  # width = height
 

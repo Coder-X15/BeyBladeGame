@@ -8,6 +8,8 @@ from globals import *
 from save_load_module import load
 from screen import Screen
 
+BGD_COLOR = BLUE
+
 
 class BattleScreen(Screen):
     def __init__(self, display_surf, logger):
@@ -43,7 +45,7 @@ class BattleScreen(Screen):
 
         self._player_hp_txt_bar = TextBar(text="HP",
                                           text_centerx=player_hp_txt_cntrx, text_centery=player_hp_txt_cntry,
-                                          text_color=WHITE, bgd_text_color=BLACK, alt_text_color=WHITE, font_size=32,
+                                          text_color=WHITE, bgd_text_color=BGD_COLOR, alt_text_color=WHITE, font_size=32,
                                           value=player_hp, max_value=player_hp,
                                           width=bars_width, bar_left=player_bar_left,
                                           bar_color=BRIGHTYELLOW, bar_bgd_color=RED)
@@ -52,28 +54,28 @@ class BattleScreen(Screen):
 
         self._player_spd_txt_bar = TextBar(text="SPD",
                                            text_centerx=player_hp_txt_cntrx, text_centery=player_hp_txt_cntry + height,
-                                           text_color=WHITE, bgd_text_color=BLACK, alt_text_color=WHITE, font_size=32,
+                                           text_color=WHITE, bgd_text_color=BGD_COLOR, alt_text_color=WHITE, font_size=32,
                                            value=player_spd, max_value=player_spd,
                                            width=int(WIDTH * 3.0 / 9), bar_left=int(WIDTH * 1.0 / 9),
                                            bar_color=BRIGHTBLUE, bar_bgd_color=BLUE)
 
         self._opp_hp_txt_bar = TextBar(text="HP",
                                             text_centerx=opp_hp_txt_cntrx, text_centery=player_hp_txt_cntry,
-                                            text_color=WHITE, bgd_text_color=BLACK, alt_text_color=WHITE, font_size=32,
+                                            text_color=WHITE, bgd_text_color=BGD_COLOR, alt_text_color=WHITE, font_size=32,
                                             value=opp_hp, max_value=opp_hp,
                                             width=bars_width, bar_left=opp_bar_left,
                                             bar_color=BRIGHTYELLOW, bar_bgd_color=RED)
 
         self._opp_spd_txt_bar = TextBar(text="SPD",
                                              text_centerx=opp_hp_txt_cntrx, text_centery=player_hp_txt_cntry+height,
-                                             text_color=WHITE, bgd_text_color=BLACK, alt_text_color=WHITE, font_size=32,
+                                             text_color=WHITE, bgd_text_color=BGD_COLOR, alt_text_color=WHITE, font_size=32,
                                              value=opp_spd, max_value=opp_spd,
                                              width=bars_width, bar_left=opp_bar_left,
                                              bar_color=BRIGHTBLUE, bar_bgd_color=BLUE)
         return
 
     def load_arena(self):
-        background_surf = pygame.image.load(os.path.join(graphics_path, "blue_arena.png")).convert_alpha()
+        background_surf = pygame.image.load(os.path.join(graphics_path, "rings_arena.png")).convert_alpha()
         min_dim = min(WIDTH, HEIGHT)
         background_surf = pygame.transform.scale(background_surf, (min_dim, min_dim))
         return background_surf
@@ -114,6 +116,7 @@ class BattleScreen(Screen):
         return
 
     def on_render(self):
+        self._display_surf.fill(BGD_COLOR)
         bgd_left = int(int(WIDTH / 2.0) - min(WIDTH, HEIGHT) / 2.0)
         self._display_surf.blit(self._background_surf, (bgd_left, 0))
 
