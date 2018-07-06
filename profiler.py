@@ -13,6 +13,7 @@ BEYBLADES = {"fire_spirit": {"hp": 90,  "atk": 20, "def": 10, "spd": 80},
              "kraken":      {"hp": 100, "atk": 60, "def": 30, "spd": 10},
              "unicorn":     {"hp": 90,  "atk": 55, "def": 20, "spd": 35}}
 
+
 def delete_profiles():
     for f in os.listdir(profiles_path):
         filename = os.path.join(profiles_path, f)

@@ -28,6 +28,7 @@ class BattleScreen(Screen):
         self._opp_spd_txt_bar = None
 
         self.create_bars()  # create HP & SPD bars
+        self._collided = False
 
         return
 
@@ -83,13 +84,11 @@ class BattleScreen(Screen):
     def on_update(self):
 
         if self._l_mouse_clicked:
-            # TODO: player BB should decrease it's speed to shorten it's radius
             opp_rect = self._opp_bb.get_rect()
             self._player_bb.attack(opp_rect.centerx, opp_rect.centery)
             self._l_mouse_clicked = False  # return to default value till next click
 
         elif self._r_mouse_clicked:
-            # TODO: player BB should increase it's movement speed to evade the opponents BB
             self._player_bb.evade()
             self._r_mouse_clicked = False  # return to default value till next click
 
@@ -102,9 +101,17 @@ class BattleScreen(Screen):
         self._opp_spd_txt_bar.on_update(self._opp_bb.get_spd())
 
         if self._check_collision():
-            self.logger.info("Collision!")
-            self._player_bb.collided(opp_attack=self._opp_bb.get_atk(), opp_spd=self._opp_bb.get_spd())
-            self._opp_bb.collided(opp_attack=self._player_bb.get_atk(), opp_spd=self._player_bb.get_spd())
+            if not self._collided:
+                self._collided = True
+                self.logger.info("Collision!")
+
+                self._player_bb.collided(self._opp_bb)
+                self._opp_bb.collided(self._player_bb)
+
+                self._player_bb.unset_attacking()
+                self._opp_bb.unset_attacking()
+        else:
+            self._collided = False
 
         if self._player_bb.get_hp() <= 0:
             self.logger.info("Player Lost!")
@@ -140,12 +147,12 @@ class BattleScreen(Screen):
         player_bb_rect = self._player_bb.get_rect()
         player_bb_centerx = player_bb_rect.centerx
         player_bb_centery = player_bb_rect.centery
-        player_bb_radius = int(player_bb_rect.height / 3.0)
+        player_bb_radius = int(player_bb_rect.height / 2.7)
 
         opp_bb_rect = self._opp_bb.get_rect()
         opp_bb_centerx = opp_bb_rect.centerx
         opp_bb_centery = opp_bb_rect.centery
-        opp_bb_radius = int(opp_bb_rect.height / 3.0)
+        opp_bb_radius = int(opp_bb_rect.height / 2.7)
 
         radius_sum = player_bb_radius + opp_bb_radius
         delta_x = abs(player_bb_centerx-opp_bb_centerx)
