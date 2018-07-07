@@ -35,9 +35,17 @@ class Beyblade(object):
         self._radius = self._max_radius
         self._rotation_speed = None
 
+        # BB images
         self._image_surf = None
         self._image_surf_rect = None
         self._image_surf_orig = None
+
+        # parts images that break when the BB loses
+        self._wheel_surf = None
+        self._wheel_surf_rect = None
+        self._spinner_surf = None
+        self._spinner_surf_rect = None
+
         self._image_surf_angle = 0  # initial rotation angle
         if player:
             self._angle_degree = 180
@@ -48,18 +56,20 @@ class Beyblade(object):
         self.load_image(name+'.png')
 
         self._attacking = False
-        self._evading = True
+        self._evading = False
+        self._lost = False  # when BB loses, it breaks and spins out of screen
+
         # the BB passed through the center while trying to attack, if reached the edge stop the attack
         # self._passed_through_center = False
         self._dx = None  # movement vector towards center
         self._dy = None  # movement vector towards center
+
         return
 
     def on_update(self):
         self.rotate()  # BB always rotates
-
         self._update_radius()  # update radius according to BB action
-        self._update_speed()
+        self._update_speed()  # return speed to regular values
         self.move_in_circle()  # BB always moves in circle
 
         # cx = self._image_surf_rect.centerx
@@ -68,19 +78,36 @@ class Beyblade(object):
         return
 
     def on_render(self, display_surf):
+        if self._lost:
+            # if BB lost render it's broken parts
+            display_surf.blit(self._wheel_surf, (self._wheel_surf_rect.left, self._wheel_surf_rect.top))
+            display_surf.blit(self._spinner_surf, (self._spinner_surf_rect.left, self._spinner_surf_rect.top))
         display_surf.blit(self._image_surf, (self._image_surf_rect.left, self._image_surf_rect.top))
         return
 
     def load_image(self, image):
-        self._image_surf = pygame.image.load(os.path.join(graphics_path, image)).convert_alpha()
         size_ratio = self._max_hp * 1.0 / MAX_ATTRIBUTE
+
+        self._image_surf = pygame.image.load(os.path.join(graphics_path, image)).convert_alpha()
         self._image_surf = pygame.transform.scale(self._image_surf,
                                                   (int(BB_SIZE * size_ratio), int(BB_SIZE * size_ratio)))
         self._image_surf_rect = self._image_surf.get_rect(center=(WIDTH / 2, HEIGHT / 2))
         self._image_surf_orig = self._image_surf
+
+        self._wheel_surf = pygame.image.load(os.path.join(graphics_path, "metal_wheel.png")).convert_alpha()
+        self._wheel_surf = pygame.transform.scale(self._wheel_surf,
+                                                  (int(BB_SIZE * size_ratio * 0.67), int(BB_SIZE * size_ratio * 0.67)))
+        self._wheel_surf_rect = self._wheel_surf.get_rect(center=(WIDTH /2, HEIGHT / 2))
+
+        self._spinner_surf = pygame.image.load(os.path.join(graphics_path, "spinner.png")).convert_alpha()
+        self._spinner_surf = pygame.transform.scale(self._image_surf,
+                                                    (int(BB_SIZE * size_ratio * 0.5), int(BB_SIZE * size_ratio * 0.5)))
+        self._spinner_surf_rect = self._spinner_surf.get_rect(center=(WIDTH/2, HEIGHT/2))
         return
 
     def rotate(self):
+        if self._lost:
+            return
         self._image_surf_angle += 15
         self._image_surf = pygame.transform.rotozoom(self._image_surf_orig, self._image_surf_angle, 1)
         # Create a new rect with the center of the old rect.
@@ -95,6 +122,16 @@ class Beyblade(object):
         # self._angle_degree += 0.5
 
         self._angle_degree += self._clockwise * self._spd / MAX_ATTRIBUTE
+
+        if self._lost:
+            self._wheel_surf_rect.centerx = self._image_surf_rect.centerx + (self._radius * math.cos(angle_radians + math.pi/4))
+            self._wheel_surf_rect.centery = self._image_surf_rect.centery + (self._radius * math.sin(angle_radians + math.pi/4))
+
+            self._spinner_surf_rect.centerx = self._image_surf_rect.centerx + (self._radius * math.cos(angle_radians + math.pi/8))
+            self._spinner_surf_rect.centerx = self._image_surf_rect.centerx + (self._radius * math.cos(angle_radians + math.pi/8))
+        else:
+            self._wheel_surf_rect.center = self._image_surf_rect.center
+            self._spinner_surf_rect.center = self._image_surf_rect.center
         return
 
     def attack(self, opp_centerx, opp_centery):
@@ -104,21 +141,31 @@ class Beyblade(object):
         return
 
     def _update_radius(self):
+
+        dr = self._spd / MAX_ATTRIBUTE  # calculate delta radius
+
+        if self._lost:
+            # when bb loses it spins out of screen
+            self._radius += dr * 15
+            return
+
         if self._attacking:
             if self._radius > 0:
-                self._radius -= self._spd / MAX_ATTRIBUTE
+                self._radius -= dr
                 if abs(self._radius) < 5:
                     self._radius = 0
             elif self._radius == 0:
                 self._attacking = False
         elif self._radius < self._max_radius:
-            self._radius += self._spd / MAX_ATTRIBUTE
+            self._radius += dr
         else:
             self._radius = self._max_radius
         return
 
     def _update_speed(self):
-        if self._attacking:
+
+        if self._attacking or self._lost:
+            # if attacking keep speed steady
             return
         elif abs(self._spd - self._max_spd) <= 5:
             self._spd = self._max_spd
@@ -160,6 +207,8 @@ class Beyblade(object):
                                                                                                              ))
         # self._attacking = False
         self._hp -= delta_hp
+        if self._hp < 0:
+            self._hp = 0
         self._spd = new_spd
         pass
 
@@ -198,3 +247,14 @@ class Beyblade(object):
 
     def unset_evading(self):
         self._evading = False
+
+    def set_lost(self):
+        self._lost = True
+
+    def is_out_of_screen(self):
+        if self._image_surf_rect.left < 0 or self._image_surf_rect.right > WIDTH:
+            return True
+        elif self._image_surf_rect.top < 0 or self._image_surf_rect.bottom > HEIGHT:
+            return True
+        else:
+            return False

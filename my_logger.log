@@ -1,207 +1,374 @@
-2018-07-06 10:41:24,967 - my_logger - INFO - __init__
-2018-07-06 10:41:27,081 - my_logger.battle_screen.screen - INFO - __init__
-2018-07-06 10:41:27,405 - my_logger - INFO - on_execute
-2018-07-06 10:41:27,405 - my_logger.battle_screen.screen - INFO - on_execute
-2018-07-06 10:41:32,637 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:34,046 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:37,411 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:39,059 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:39,098 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:40,884 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:40,921 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:44,009 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:45,420 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:48,371 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:49,713 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:49,756 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,414 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,453 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,484 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,520 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,559 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,596 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,635 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,674 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,714 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,755 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,793 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,828 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,862 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,895 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,931 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:52,969 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,005 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,039 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,075 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,109 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,145 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,180 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,214 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,250 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,285 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,319 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,355 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,391 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,424 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,457 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,493 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,528 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,563 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,601 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,642 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,687 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,724 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,762 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,792 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,828 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,862 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,898 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,934 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:53,967 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,003 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,039 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,075 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,108 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,141 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,174 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,209 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,246 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,283 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,318 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,351 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,385 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,421 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,459 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,496 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,545 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,579 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,615 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,650 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,686 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,723 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,759 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,796 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,831 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,871 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,904 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,938 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:54,973 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,009 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,043 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,079 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,118 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,154 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,187 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,223 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,259 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,296 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,331 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,365 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,400 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,434 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,470 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,506 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,545 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,578 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,615 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,650 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,687 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,730 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,767 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,805 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,841 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,875 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,911 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,947 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:55,980 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,017 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,052 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,085 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,118 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,154 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,196 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,230 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,266 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,301 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,338 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,375 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,414 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,450 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,486 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,523 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,561 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,599 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,638 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,676 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,717 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,753 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,792 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,829 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,867 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,904 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,948 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:56,980 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,022 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,065 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,117 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,157 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,190 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,223 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,259 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,296 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,331 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,367 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,401 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,436 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,470 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,506 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,543 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,581 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,617 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,651 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,687 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,724 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,760 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,796 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,832 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,867 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,901 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,937 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:57,974 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,010 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,048 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,082 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,117 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,153 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,188 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,223 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,259 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,293 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,329 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,365 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,401 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,436 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,470 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,506 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,542 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,578 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,618 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,648 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,690 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,729 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,766 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,805 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,844 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,882 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,921 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,961 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:58,999 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:59,214 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:59,289 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:41:59,323 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:42:03,555 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:42:04,969 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:42:05,003 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:42:11,417 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-06 10:42:11,417 - my_logger.battle_screen.screen - INFO - Player Won!
-2018-07-06 10:42:11,423 - my_logger - INFO - on_cleanup
+2018-07-07 20:51:44,782 - my_logger - INFO - __init__
+2018-07-07 20:51:46,470 - my_logger.battle_screen.screen - INFO - __init__
+2018-07-07 20:51:47,051 - my_logger - INFO - on_execute
+2018-07-07 20:51:47,051 - my_logger.battle_screen.screen - INFO - on_execute
+2018-07-07 20:51:48,792 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:50,826 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:50,862 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:54,446 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:57,776 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:57,812 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:57,846 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:57,882 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:57,917 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:57,951 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:57,986 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,023 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,061 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,096 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,132 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,168 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,207 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,242 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,276 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,309 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,345 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,380 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,489 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,523 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,559 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,595 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,628 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,658 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,694 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,730 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,766 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,805 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,841 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,875 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,911 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,940 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:58,976 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,010 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,043 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,078 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,111 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,145 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,180 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,217 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,252 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,289 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,325 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,362 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,960 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:51:59,996 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:00,032 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:01,099 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:01,135 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:01,667 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:01,709 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:03,040 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:05,763 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:07,207 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:07,243 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:07,282 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:10,374 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:10,374 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,380 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,385 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,391 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,398 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,404 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,411 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,417 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,423 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,430 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,436 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,443 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,448 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,454 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,460 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,467 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,473 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,480 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,486 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,492 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,497 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,503 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,509 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,516 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,522 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,526 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,533 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,539 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,545 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,551 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,555 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,562 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,569 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,575 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,582 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,586 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,592 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,599 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,605 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,611 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,617 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,621 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,628 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,635 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,641 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,648 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,654 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,661 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,667 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,673 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,680 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,686 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,690 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,697 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,703 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,707 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,713 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,719 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,723 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,730 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,736 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,740 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,746 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,752 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,757 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,763 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,769 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,773 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,780 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,786 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,792 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,799 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,803 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,809 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,815 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,822 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,832 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,838 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,844 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,849 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,855 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,862 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,868 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,875 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,881 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,888 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,894 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,900 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,905 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,911 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,915 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,921 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,928 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,934 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,940 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,944 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,950 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,957 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,963 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,969 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,973 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,980 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,986 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,992 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:10,997 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,003 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,007 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,015 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,019 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,026 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,032 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,038 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,043 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,049 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,055 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,061 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,068 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,073 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,079 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,085 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,091 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,098 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,104 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,109 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,115 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,121 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,127 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,132 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,138 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,144 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,150 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,154 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,161 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,165 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,171 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,178 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,184 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,190 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,197 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,201 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,207 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,213 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,219 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,224 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,232 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,237 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,243 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,249 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,253 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,259 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,266 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,273 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,279 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,286 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,292 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,299 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,303 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,309 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,315 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,322 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,328 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,334 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,338 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,345 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,351 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,357 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,362 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,368 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,375 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,381 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,388 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,392 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,398 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,407 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,413 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,420 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,426 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,431 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,437 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,441 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,448 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,454 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,460 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,467 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,471 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,477 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,483 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,489 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,494 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,500 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,507 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,513 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,519 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,525 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,532 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,536 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,542 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,548 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,553 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,559 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,565 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,571 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,576 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,582 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,588 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,594 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,599 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,605 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,611 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,617 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,622 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,630 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,637 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,641 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,648 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,654 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,660 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,664 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,671 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,677 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,683 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,687 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,694 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,700 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,706 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,710 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,717 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,721 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,727 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,733 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,739 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,743 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,750 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,756 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,760 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,766 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,772 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,779 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,785 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:11,790 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:52:22,095 - my_logger.screen - INFO - __init__
+2018-07-07 20:52:22,500 - my_logger.screen - INFO - Random opponent selected: pegasus
+2018-07-07 20:52:22,520 - my_logger.screen - INFO - on_execute
+2018-07-07 20:52:35,493 - my_logger.battle_screen.screen - INFO - __init__
+2018-07-07 20:52:36,009 - my_logger.battle_screen.screen - INFO - on_execute
+2018-07-07 20:52:42,793 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:56,710 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:58,036 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:58,059 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:58,094 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:52:59,563 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:01,243 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:02,769 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:26,848 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:42,005 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:43,365 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:43,384 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:45,631 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:45,875 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:45,914 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:47,157 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:47,186 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:47,631 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:49,117 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:49,148 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:49,181 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:50,776 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:50,992 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:51,953 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:51,982 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:52,437 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:53,789 - my_logger.battle_screen.screen - INFO - Collision!
+2018-07-07 20:53:53,789 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,793 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,799 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,805 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,811 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,818 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,822 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,828 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,835 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,839 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,845 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,851 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,858 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,862 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,869 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,875 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,881 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,888 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,894 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,900 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,905 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,911 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,917 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,924 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,930 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,936 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,941 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,947 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,953 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,959 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,964 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,970 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:53,976 - my_logger.battle_screen.screen - INFO - Player Won!
+2018-07-07 20:53:56,440 - my_logger.screen - INFO - __init__
+2018-07-07 20:53:56,803 - my_logger.screen - INFO - Random opponent selected: medusa
+2018-07-07 20:53:56,826 - my_logger.screen - INFO - on_execute
+2018-07-07 20:53:59,177 - my_logger - INFO - on_cleanup
