@@ -40,3 +40,6 @@ class Text:
 
     def __str__(self):
         return self._text
+
+    def get_height(self):
+        return self._textRectObj.height

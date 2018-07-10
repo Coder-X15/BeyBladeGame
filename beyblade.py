@@ -59,11 +59,7 @@ class Beyblade(object):
         self._evading = False
         self._lost = False  # when BB loses, it breaks and spins out of screen
 
-        # the BB passed through the center while trying to attack, if reached the edge stop the attack
-        # self._passed_through_center = False
-        self._dx = None  # movement vector towards center
-        self._dy = None  # movement vector towards center
-
+        self._opp_radius = None
         return
 
     def on_update(self):
@@ -134,28 +130,36 @@ class Beyblade(object):
             self._spinner_surf_rect.center = self._image_surf_rect.center
         return
 
-    def attack(self, opp_centerx, opp_centery):
+    def attack(self, opp_radius):
         self._attacking = True
         self._evading = False
+        self._opp_radius = opp_radius
         # self.calc_movement_vector(opp_centerx, opp_centery)
         return
 
     def _update_radius(self):
 
-        dr = self._spd / MAX_ATTRIBUTE  # calculate delta radius
+        dr = max(self._spd / MAX_ATTRIBUTE, 0.7)  # calculate delta radius
 
         if self._lost:
             # when bb loses it spins out of screen
             self._radius += dr * 15
             return
 
+        if abs(self._radius) < dr:
+            self._radius = 0
+            self._attacking = False
+
         if self._attacking:
             if self._radius > 0:
                 self._radius -= dr
-                if abs(self._radius) < 5:
-                    self._radius = 0
-            elif self._radius == 0:
-                self._attacking = False
+            elif self._opp_radius is not None:
+                if self._radius > self._opp_radius:
+                    self._radius -= dr
+                elif self._radius < self._opp_radius:
+                    self._radius += dr
+                elif abs(self._radius - self._opp_radius) < dr:
+                    self._radius = self._opp_radius
         elif self._radius < self._max_radius:
             self._radius += dr
         else:
@@ -192,7 +196,7 @@ class Beyblade(object):
         if self._attacking:
             self._clockwise = -1 * self._clockwise  # change direction
         elif opp_bb.is_attacking():
-            delta_hp = max(10, opp_attack - self._def)
+            delta_hp = min(max(10, opp_attack - self._def), 25)
 
         new_spd = max(10, self._spd - opp_spd)  # speed cannot decrease below 10
 
@@ -212,6 +216,9 @@ class Beyblade(object):
         self._spd = new_spd
         pass
 
+    def get_name(self):
+        return self._name
+
     def get_radius(self):
         # faster BBs can move with greater radius
         # return self._spd * 1.0 / MAX_ATTRIBUTE * MAX_RADIUS - self._image_surf_rect.width
@@ -221,8 +228,8 @@ class Beyblade(object):
 
     def get_max_radius(self):
         # returns the maximum radius for the BB
-        return self._max_spd * MAX_RADIUS * 1.0 / MAX_ATTRIBUTE
-        # return self._max_spd * MAX_RADIUS * 1.0 / MAX_ATTRIBUTE - self._image_surf_rect.width/2
+        # return self._max_spd * MAX_RADIUS * 1.0 / MAX_ATTRIBUTE  # original
+        return min(HEIGHT, WIDTH) / 2
 
     def get_rect(self):
         return self._image_surf_rect
@@ -244,6 +251,9 @@ class Beyblade(object):
 
     def unset_attacking(self):
         self._attacking = False
+
+    def is_evading(self):
+        return self._evading
 
     def unset_evading(self):
         self._evading = False

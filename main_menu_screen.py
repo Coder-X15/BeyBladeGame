@@ -1,6 +1,7 @@
 import os
 import pygame
 from globals import *
+from save_load_module import save
 from screen import Screen
 from buttons import TextButton
 
@@ -24,6 +25,9 @@ class MainMenuScreen(Screen):
                                                "play"].get_height() * 3,
                                            text="Quit Game", text_color=WHITE, bgd_color=BLACK,
                                            alt_text_color=BRIGHTYELLOW, font_size=font_size)
+
+        self.reset_played_bbs()  # changes all BB status to not played
+        return
 
     def on_update(self):
         for key, button in self._buttons.items():
@@ -49,3 +53,13 @@ class MainMenuScreen(Screen):
         elif key == "quit":
             self._next_screen = None
         return
+
+    def reset_played_bbs(self):
+        # reset the played BBs list from previous game
+        bb_dict = {}
+        for bb in BEYBLADES_LIST:
+            key = bb + "_played"
+            bb_dict[key] = False
+        save(bb_dict)
+        return
+

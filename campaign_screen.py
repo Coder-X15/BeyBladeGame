@@ -28,6 +28,11 @@ class CampaignScreen(Screen):
 
         # load opponents BB list and pick the next opponent
         self._opp_bb_dict = self.get_bb_dict()
+        if not any(self._opp_bb_dict):
+            # if there are no more opponents in the dictionary, player won the game
+            # TODO: add a game won screen or message and a leaderboard
+            pass
+
         self._next_opp_bb = self.get_next_opponent()
         self._frames_counter = 0
         self._r = np.logspace(0, 0.5, FRAMES_TIMER)  # create a non-linear list 0->~3.16

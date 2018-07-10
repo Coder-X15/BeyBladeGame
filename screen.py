@@ -37,6 +37,10 @@ class Screen(CEvent):
         # key can be a reference to the class of the next screen
         self._running = False
 
+        if hasattr(key, "type"):
+            if key.type is pygame.QUIT:
+                return
+
     def on_execute(self):
         self.logger.info("on_execute")
         self._l_mouse_clicked = False
