@@ -182,7 +182,7 @@ class CampaignScreen(Screen):
 
 
 def shuffle_bb_list(player_bb_name):
-    assert type(player_bb_name) is StringType, "player is not a name string!"
+    assert type(player_bb_name) is str, "player is not a name string!" # edited this line since it showed errors; I think using 'str' is better.
     rnd_bb_list = [i for i in BEYBLADES_LIST]  # copy the list
     rnd_bb_list.remove(player_bb_name)
     shuffle(rnd_bb_list)  # shuffle works in place and returns None
