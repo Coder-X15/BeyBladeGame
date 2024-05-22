@@ -32,7 +32,7 @@ class App:
         # self._active_screen = MainMenuScreen(display_surf=self._display_surf, logger=logger)
         # self._active_screen = PlayerSelectionScreen(display_surf=self._display_surf, logger=logger)
         # self._active_screen = CampaignScreen(self._display_surf, logger)
-        self._active_screen = BattleScreen(self._display_surf, self.logger)
+        self._active_screen = MainMenuScreen(self._display_surf, self.logger)
         self._running = True
 
     def on_cleanup(self):
