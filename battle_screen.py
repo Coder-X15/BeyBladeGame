@@ -4,6 +4,10 @@ import random
 
 import pygame
 
+# my edit - to add the clashing sound
+from pygame import mixer
+
+
 from bars import TextBar
 from beyblade import Beyblade
 from buttons import TextButton
@@ -22,6 +26,7 @@ class BattleScreen(Screen):
 
         player_name = load(key="player_beyblade")
         opp_name = load(key="opp_beyblade")
+        mixer.init()
 
         self._player_bb = Beyblade(logger=self.logger, name=player_name, player=True)
         # self._opp_bb = AIBeyblade(self.logger, name=opp_name)
@@ -237,6 +242,8 @@ class BattleScreen(Screen):
         delta_y = abs(player_bb_centery - opp_bb_centery)
         distance = math.sqrt(delta_x ** 2 + delta_y ** 2)
         if distance <= radius_sum:
+            mixer.music.load("sounds/clash.mp3")
+            mixer.music.play(1)
             return True
         else:
             return False

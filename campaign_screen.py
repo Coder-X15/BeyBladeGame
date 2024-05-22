@@ -3,7 +3,7 @@ from random import shuffle, choice
 from types import *
 
 import numpy as np
-
+from pygame import mixer
 from globals import *
 from graphic_effects import *
 from screen import Screen
@@ -121,6 +121,7 @@ class CampaignScreen(Screen):
             if key.type is pygame.QUIT:
                 return
         if key:
+            mixer.music.stop()
             from battle_screen import BattleScreen
             self._next_screen = BattleScreen
         return
@@ -182,7 +183,7 @@ class CampaignScreen(Screen):
 
 
 def shuffle_bb_list(player_bb_name):
-    assert type(player_bb_name) is str, "player is not a name string!" # edited this line since it showed errors; I think using 'str' is better.
+    assert type(player_bb_name) is str, "player is not a name string!"
     rnd_bb_list = [i for i in BEYBLADES_LIST]  # copy the list
     rnd_bb_list.remove(player_bb_name)
     shuffle(rnd_bb_list)  # shuffle works in place and returns None

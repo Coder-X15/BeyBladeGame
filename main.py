@@ -9,6 +9,7 @@ Date: 10.5.18
 
 
 import pygame
+
 from globals import *
 from my_logger import get_logger
 from profiler import create_profiles
@@ -25,6 +26,7 @@ class App:
         self.logger = logger
         logger.info("__init__")
         pygame.init()
+        
         create_profiles()
         self._display_surf = pygame.display.set_mode((WIDTH, HEIGHT), pygame.HWSURFACE | pygame.DOUBLEBUF)
         # self._active_screen = MainMenuScreen(display_surf=self._display_surf, logger=logger)

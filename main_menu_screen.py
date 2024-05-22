@@ -1,5 +1,9 @@
 import os
 import pygame
+
+# my edit : adding the bgm
+from pygame import mixer
+
 from globals import *
 from save_load_module import save
 from screen import Screen
@@ -36,6 +40,11 @@ class MainMenuScreen(Screen):
         return
 
     def on_render(self):
+        # my edit: running the mixer to play the sound
+        mixer.init(44100, -16,2,2048)
+        mixer.music.load('sounds/bgm.mp3')
+        mixer.music.play(-1)
+        
         self._display_surf.fill(BLACK)  # clear screen
         self._display_surf.blit(self._background_surf, (int(WIDTH / 4), int(HEIGHT / 8)))
         for button in self._buttons.values():
