@@ -1,202 +1,257 @@
-2018-07-10 16:43:28,203 - my_logger - INFO - __init__
-2018-07-10 16:43:30,085 - my_logger.battle_screen.screen - INFO - __init__
-2018-07-10 16:43:30,720 - my_logger - INFO - on_execute
-2018-07-10 16:43:30,720 - my_logger.battle_screen.screen - INFO - on_execute
-2018-07-10 16:43:30,723 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:33,624 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:33,630 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:34,229 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:34,237 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:34,832 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:36,650 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:36,657 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:36,663 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:36,690 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:37,293 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:37,302 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:37,898 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:37,904 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:37,910 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:39,747 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:39,760 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:40,354 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:40,936 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:40,941 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:42,644 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:42,651 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:42,683 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:42,688 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:42,694 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:42,720 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:42,726 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:42,732 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:42,739 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:42,765 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:42,770 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:42,778 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:42,845 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:42,851 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:42,865 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:42,881 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:42,888 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:42,908 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:42,921 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:42,928 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:42,937 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:42,957 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:42,970 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:42,976 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:42,990 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:43,003 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:43,016 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:43,029 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:43,042 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:43,654 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:44,411 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:44,417 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:44,424 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:44,430 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:44,594 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:45,076 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:45,084 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:45,732 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:45,739 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:45,744 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:45,753 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:45,759 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:45,822 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:45,828 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:45,835 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:45,842 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:45,848 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:45,855 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:46,453 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:46,460 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:46,607 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:46,612 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:47,042 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:47,048 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:47,611 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:48,198 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:48,204 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:48,210 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:48,217 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:48,223 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:48,229 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:49,474 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:49,480 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:49,486 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:49,493 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:49,500 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:49,506 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:49,512 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:49,519 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:49,543 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:49,549 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:49,723 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:49,729 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:50,302 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:50,309 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:50,315 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:50,880 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:52,888 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:52,894 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:52,901 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:52,907 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:52,914 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:52,921 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:53,400 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:53,963 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:54,513 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:54,520 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:54,526 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:54,532 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:54,539 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:55,095 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:55,101 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:56,569 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:56,573 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:57,923 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:57,928 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:57,934 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:43:57,940 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:43:57,963 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:58,303 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:43:58,795 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:59,346 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:43:59,641 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:44:00,147 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:44:00,710 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:44:01,265 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:01,272 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:44:02,411 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:44:02,417 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:02,424 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:02,431 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:44:03,013 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:44:03,019 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:03,025 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:44:03,516 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:44:03,523 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:44:03,928 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:03,934 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:03,940 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:03,946 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:03,951 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:03,957 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:03,963 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:44:04,005 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:44:04,010 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:04,017 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:04,023 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:44:04,405 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:04,411 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:44:04,880 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:44:04,885 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:04,891 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:04,898 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:04,904 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:44:04,917 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:44:04,923 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:04,928 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:04,936 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:04,940 - my_logger.battle_screen.screen - INFO - Attacking
-2018-07-10 16:44:04,954 - my_logger.battle_screen.screen - INFO - Collision!
-2018-07-10 16:44:04,954 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:04,960 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:04,960 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:04,967 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:04,967 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:04,971 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:04,973 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:04,979 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:44:04,980 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:04,986 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:04,990 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:04,999 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,003 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,009 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,017 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,023 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:05,023 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,029 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:05,029 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,036 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:05,036 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,040 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:05,042 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,048 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:05,049 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,055 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:05,055 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,061 - my_logger.battle_screen.screen - INFO - Moving
-2018-07-10 16:44:05,061 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,068 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
-2018-07-10 16:44:05,068 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,073 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,078 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,085 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:05,089 - my_logger.battle_screen.screen - INFO - Player Lost!
-2018-07-10 16:44:18,947 - my_logger.main_menu_screen.screen - INFO - __init__
-2018-07-10 16:44:18,976 - my_logger.main_menu_screen.screen - INFO - on_execute
-2018-07-10 16:44:24,401 - my_logger - INFO - on_cleanup
+2024-07-01 14:54:58,168 - my_logger - INFO - __init__
+2024-07-01 14:54:59,469 - my_logger.main_menu_screen.screen - INFO - __init__
+2024-07-01 14:54:59,482 - my_logger - INFO - on_execute
+2024-07-01 14:54:59,483 - my_logger.main_menu_screen.screen - INFO - on_execute
+2024-07-01 14:55:00,739 - my_logger.player_selection_screen.screen - INFO - __init__
+2024-07-01 14:55:01,174 - my_logger.player_selection_screen.screen - INFO - on_execute
+2024-07-01 14:55:01,655 - my_logger.player_selection_screen.screen - INFO - Player selected big_bang_pegasus beyblade
+2024-07-01 14:55:01,658 - my_logger.screen - INFO - __init__
+2024-07-01 14:55:01,781 - my_logger.screen - INFO - Random opponent selected: arc_bahamut
+2024-07-01 14:55:01,788 - my_logger.screen - INFO - on_execute
+2024-07-01 14:55:06,469 - my_logger.battle_screen.screen - INFO - __init__
+2024-07-01 14:55:06,624 - my_logger.battle_screen.screen - INFO - on_execute
+2024-07-01 14:55:06,624 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:06,628 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:06,632 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:06,887 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:06,892 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:07,156 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:07,159 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:07,163 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:08,221 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:08,223 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:08,239 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:08,244 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:08,249 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:08,251 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:08,254 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:08,257 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:08,290 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:08,306 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:08,325 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:08,344 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:08,351 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:08,361 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:08,378 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:08,396 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:08,443 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:08,582 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:08,659 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:08,663 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:08,919 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:09,406 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,409 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:09,420 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,423 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:09,436 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,438 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:09,442 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:09,446 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:09,450 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:09,453 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:09,455 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:09,456 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,460 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:09,474 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,491 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,511 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,532 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,553 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,573 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,599 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,617 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,634 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,655 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,676 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,696 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,714 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,732 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,751 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,770 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,789 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,808 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,826 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,845 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,867 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,884 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,911 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,933 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,950 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,970 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:09,991 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:10,009 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:10,026 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:10,045 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:10,060 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:10,077 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:10,093 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:10,125 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:10,145 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:10,167 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:10,188 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:10,207 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:10,393 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:10,619 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:11,606 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:11,609 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:11,638 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:11,761 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:11,780 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:11,788 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:11,793 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:11,798 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:11,813 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:11,814 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,817 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:11,818 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,821 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,824 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,828 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,832 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,836 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,838 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,841 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,845 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,850 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,854 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,857 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:11,858 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,861 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,866 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,869 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,872 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,878 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,882 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,886 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,889 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,893 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,896 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,899 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,903 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,906 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,908 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,911 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,916 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,920 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,923 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,926 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,930 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,935 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,938 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,944 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,951 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,956 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,958 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:11,961 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:13,525 - my_logger.main_menu_screen.screen - INFO - __init__
+2024-07-01 14:55:13,534 - my_logger.main_menu_screen.screen - INFO - on_execute
+2024-07-01 14:55:14,261 - my_logger.player_selection_screen.screen - INFO - __init__
+2024-07-01 14:55:14,574 - my_logger.player_selection_screen.screen - INFO - on_execute
+2024-07-01 14:55:16,479 - my_logger.player_selection_screen.screen - INFO - Player selected xeno_xcalibur beyblade
+2024-07-01 14:55:16,481 - my_logger.screen - INFO - __init__
+2024-07-01 14:55:16,598 - my_logger.screen - INFO - Random opponent selected: big_bang_pegasus
+2024-07-01 14:55:16,603 - my_logger.screen - INFO - on_execute
+2024-07-01 14:55:21,215 - my_logger.battle_screen.screen - INFO - __init__
+2024-07-01 14:55:21,336 - my_logger.battle_screen.screen - INFO - on_execute
+2024-07-01 14:55:21,336 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:21,340 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:22,473 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:22,476 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:22,494 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:22,497 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:22,502 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:22,506 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:22,509 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:22,629 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:22,735 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:22,738 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:22,740 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:22,918 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:23,165 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:23,408 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:23,642 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:23,645 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:23,649 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:23,654 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:23,657 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:23,902 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:24,425 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,428 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:24,439 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,441 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:24,445 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:24,456 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,459 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:24,470 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,473 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:24,490 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,493 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:24,649 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,654 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:24,670 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,675 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:24,678 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:24,691 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,710 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,728 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,746 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,764 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,781 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,796 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,815 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,836 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,855 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,879 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:24,900 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:25,104 - my_logger.battle_screen.screen - INFO - Moving
+2024-07-01 14:55:25,109 - my_logger.battle_screen.screen - INFO - Opponent BB Evading
+2024-07-01 14:55:25,358 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:26,277 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:26,280 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:26,293 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:26,293 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,295 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:26,296 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,300 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,304 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,307 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,310 - my_logger.battle_screen.screen - INFO - Collision!
+2024-07-01 14:55:26,310 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,313 - my_logger.battle_screen.screen - INFO - Attacking
+2024-07-01 14:55:26,314 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,318 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,321 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,325 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,328 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,331 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,335 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,338 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,341 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,343 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,346 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,349 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,352 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,355 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,358 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,361 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,364 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,368 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,371 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,374 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,378 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,380 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,383 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,387 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,389 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,391 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,395 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,398 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,402 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,405 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,408 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,411 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,414 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:26,418 - my_logger.battle_screen.screen - INFO - Player Lost!
+2024-07-01 14:55:27,365 - my_logger.main_menu_screen.screen - INFO - __init__
+2024-07-01 14:55:27,372 - my_logger.main_menu_screen.screen - INFO - on_execute
+2024-07-01 14:55:28,318 - my_logger - INFO - on_cleanup

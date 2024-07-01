@@ -22,8 +22,8 @@ YELLOW = (155, 155, 0)
 DARKGRAY = (40, 40, 40)
 
 
-BEYBLADES_LIST = ["atomic", "demon", "fire_spirit", "golden", "imp",
-                  "kraken", "medusa", "pegasus", "unicorn", "valkyrie"]
+BEYBLADES_LIST = ["arc_bahamut", "gladiator_bahamut", "phantom_orion", "hades_kerbecs", "samurai_ifrit",
+                  "pirate_kraken", "pirate_orochi", "big_bang_pegasus", "blitz_striker", "xeno_xcalibur"]
 
 MAX_ATTRIBUTE = 100.0
 
